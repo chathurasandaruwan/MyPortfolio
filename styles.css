@@ -1,0 +1,32 @@
+/*header style*/
+header{
+    top: 0;
+    height: 100px;
+    width: 100vw;
+    background: gray;
+    position: fixed;
+}
+header>nav{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+header>div{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+header>div>img{
+    height: 80px;
+    width: 130px;
+}
+header>nav>a{
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+header>nav>a:hover{
+    color: black;
+}
