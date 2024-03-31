@@ -10,26 +10,40 @@
             display: flex;
             position: relative;
             margin-top: 100px;
+            height: calc(100vh - 100px);
             background-color: teal;
         }
         #home>article>hgroup{
-            /*background-color: deepskyblue;*/
-            height: 65px;
+            height: 50px;
             overflow: hidden;
-
+            color: white;
+            font-size: 30px;
+            position: absolute;
+        }
+        #home>article>span{
+            color: white;
+        }
+        #home>article>h1{
+            color: white;
+            font-size: 54px;
         }
         #home>article>hgroup>h2{
+            margin: 0 ;
             animation-name: homeTextAnimation;
             animation-duration: 7s;
             animation-iteration-count: infinite;
             animation-direction: alternate;
         }
+
         #home>aside{
             border-radius: 100%;
             width: 525px;
             height: 708px;
             overflow: hidden;
             display: flex;
+            position: absolute;
+            right: 300px;
+            margin-top: 55px;
         }
         #home>aside:first-child>img{
             width: 550px;
@@ -41,7 +55,7 @@
         }
         #home>aside>img{
             animation-name: homeImageAnimation;
-            animation-duration: 7s;
+            animation-duration: 10s;
             animation-iteration-count: infinite;
         }
 
@@ -50,13 +64,13 @@
                 transform: translateY(0);
             }
             25% ,45%{
-                transform: translateY(-170%);
+                transform: translateY(-115%);
             }
             50% , 70%{
-                transform: translateY(-340%);
+                transform: translateY(-215%);
             }
             75% ,100%{
-                transform: translateY(-520%);
+                transform: translateY(-320%);
             }
         }
         @keyframes homeImageAnimation {
