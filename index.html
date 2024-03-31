@@ -12,7 +12,30 @@
             margin-top: 100px;
             background-color: teal;
         }
+        #home>article>hgroup{
+            background-color: deepskyblue;
+            height: 65px;
+            overflow: hidden;
 
+        }
+        #home>article>hgroup>h2{
+            animation-name: homeTextAnimation;
+            animation-duration: 5s;
+        }
+        @keyframes homeTextAnimation {
+            0%,20%{
+                transform: translateY(0);
+            }
+            25% ,45%{
+                transform: translateY(-170%);
+            }
+            50% , 70%{
+                transform: translateY(-340%);
+            }
+            75% ,100%{
+                transform: translateY(-520%);
+            }
+        }
     </style>
 
 </head>
@@ -36,23 +59,25 @@
 <!--hero section-->
 <section id="home">
 <!--    hero left-->
-    <div>
+    <article>
 <!--        hand wavind gif-->
         <div>
             <img src="assets/gif/hand wavind.gif" alt="hand-wavind-gif" width="100" height="50">
         </div>
-        <span>HELLO</span>
-        <h1>I'm Chatura <br> Sandaruwan</h1>
-        <h2>Web Designer</h2>
-        <h2>Web Developer</h2>
-        <h2>App Designer</h2>
-        <h2>App Developer</h2>
-    </div>
+            <span>HELLO</span>
+            <h1>I'm Chatura <br> Sandaruwan</h1>
+        <hgroup>
+            <h2>Web Designer</h2>
+            <h2>Web Developer</h2>
+            <h2>App Designer</h2>
+            <h2>App Developer</h2>
+        </hgroup>
+    </article>
 <!--    hero right-->
-    <div>
+    <aside>
         <img src="assets/images/MyPhoto1.png" title="MyGallery.lk" alt="Myphoto" width="525" height="708">
         <img src="assets/images/MyPhoto2.png" title="MyGallery.lk" alt="Myphoto" width="525" height="708">
-    </div>
+    </aside>
 </section>
 <!--About me-->
 <section>
