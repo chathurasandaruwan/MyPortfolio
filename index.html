@@ -24,6 +24,27 @@
             animation-iteration-count: infinite;
             animation-direction: alternate;
         }
+        #home>aside{
+            border-radius: 100%;
+            width: 525px;
+            height: 708px;
+            overflow: hidden;
+            display: flex;
+        }
+        #home>aside:first-child>img{
+            width: 550px;
+            height: 720px;
+        }
+        #home>aside:nth-child(2)>img{
+            width: 550px;
+            height: 745px;
+        }
+        #home>aside>img{
+            animation-name: homeImageAnimation;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+        }
+
         @keyframes homeTextAnimation {
             0%,20%{
                 transform: translateY(0);
@@ -36,6 +57,14 @@
             }
             75% ,100%{
                 transform: translateY(-520%);
+            }
+        }
+        @keyframes homeImageAnimation {
+            0%,45%{
+                transform: translateX(0);
+            }
+            50% ,95%{
+                transform: translateX(-110%);
             }
         }
     </style>
@@ -77,8 +106,8 @@
     </article>
 <!--    hero right-->
     <aside>
-        <img src="assets/images/MyPhoto1.png" title="MyGallery.lk" alt="Myphoto" width="525" height="708">
-        <img src="assets/images/MyPhoto2.png" title="MyGallery.lk" alt="Myphoto" width="525" height="708">
+        <img src="assets/images/MyPhoto1.png" title="MyGallery.lk" alt="Myphoto">
+        <img src="assets/images/MyPhoto2.png" title="MyGallery.lk" alt="Myphoto">
     </aside>
 </section>
 <!--About me-->
