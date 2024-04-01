@@ -10,52 +10,71 @@
             display: flex;
             position: relative;
             margin-top: 100px;
-            height: calc(100vh - 100px);
-            background-color: teal;
+            height: calc(100vh - 200px);
+            background-color: #31304D;
         }
-        #home>article>hgroup{
-            height: 50px;
+        #home>main>article>hgroup{
+            height: 43px;
             overflow: hidden;
             color: white;
-            font-size: 30px;
+            font-size: 26px;
             position: absolute;
         }
-        #home>article>span{
+        #home>main>div{
+            position: relative;
+        }
+        #home>main>div>span{
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 20px;
             color: white;
         }
-        #home>article>h1{
+        #home>main>article>h1{
             color: white;
-            font-size: 54px;
+            font-size: 60px;
         }
-        #home>article>hgroup>h2{
+        #home>main>article>hgroup>h2{
             margin: 0 ;
             animation-name: homeTextAnimation;
             animation-duration: 7s;
             animation-iteration-count: infinite;
             animation-direction: alternate;
         }
+        #home>main{
+            /*background-color: deepskyblue;*/
+            height: 60%;
+            position: absolute;
+            top: 200px;
+            left: 400px;
+        }
+        #home>main>div>img{
+            display: inline;
+            margin-right: 0;
+        }
 
         #home>aside{
-            border-radius: 100%;
+            border-radius: 45%;
             width: 525px;
             height: 708px;
             overflow: hidden;
             display: flex;
             position: absolute;
             right: 300px;
-            margin-top: 55px;
+            margin-top: 10px;
         }
         #home>aside:first-child>img{
-            width: 550px;
-            height: 720px;
+            width: 700px;
+            height: 1000px;
+            margin-right: 0;
         }
         #home>aside:nth-child(2)>img{
-            width: 550px;
-            height: 745px;
+            width: 700px;
+            height: 800px;
+            /*margin-left: 20px;*/
         }
         #home>aside>img{
             animation-name: homeImageAnimation;
-            animation-duration: 10s;
+            animation-duration: 7s;
             animation-iteration-count: infinite;
         }
 
@@ -78,7 +97,7 @@
                 transform: translateX(0);
             }
             50% ,95%{
-                transform: translateX(-110%);
+                transform: translateX(-100%);
             }
         }
     </style>
@@ -104,20 +123,23 @@
 <!--hero section-->
 <section id="home">
 <!--    hero left-->
-    <article>
+    <main>
 <!--        hand wavind gif-->
         <div>
             <img src="assets/gif/hand wavind.gif" alt="hand-wavind-gif" width="100" height="50">
-        </div>
             <span>HELLO</span>
+        </div>
+        <article>
+<!--            <span>HELLO</span>-->
             <h1>I'm Chatura <br> Sandaruwan</h1>
-        <hgroup>
-            <h2>Web Designer</h2>
-            <h2>Web Developer</h2>
-            <h2>App Designer</h2>
-            <h2>App Developer</h2>
-        </hgroup>
-    </article>
+            <hgroup>
+                <h2>Web Designer</h2>
+                <h2>Web Developer</h2>
+                <h2>App Designer</h2>
+                <h2>App Developer</h2>
+            </hgroup>
+        </article>
+    </main>
 <!--    hero right-->
     <aside>
         <img src="assets/images/MyPhoto1.png" title="MyGallery.lk" alt="Myphoto">
