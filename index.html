@@ -6,100 +6,39 @@
     <link rel="stylesheet" href="assets/normalize.css">
     <link rel="stylesheet" href="styles.css">
     <style>
-        /*#home{
-            display: flex;
-            position: relative;
-            margin-top: 100px;
-            height: calc(100vh - 200px);
-            background-color: #31304D;
+        :root{
+            --topicFontSize : 30px;
+            --textFontSize : 25px;
         }
-        #home>main>article>hgroup{
-            height: 43px;
-            overflow: hidden;
-            color: white;
-            font-size: 26px;
-            position: absolute;
-        }
-        #home>main>div{
+        #about{
+            background-color: deepskyblue;
             position: relative;
         }
-        #home>main>div>span{
+        #about>h2:first-child{
+            width: 200px;
+            height: 60px;
+            margin: auto;
+            margin-top: 0;
+            padding: 20px;
+            font-size:var(--topicFontSize);
+        }
+        #about>aside>img{
+            width: 30%;
+            height: 700px;
+            margin-left: 10%;
+        }
+        #about>article{
+            width: 40%;
+            height: 700px;
             position: absolute;
-            margin-top: 20px;
-            margin-left: 20px;
-            color: white;
-        }
-        #home>main>article>h1{
-            color: white;
-            font-size: 60px;
-        }
-        #home>main>article>hgroup>h2{
-            margin: 0 ;
-            animation-name: homeTextAnimation;
-            animation-duration: 7s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-        }
-        #home>main{
-            !*background-color: deepskyblue;*!
-            height: 60%;
-            position: absolute;
-            top: 200px;
-            left: 400px;
-        }
-        #home>main>div>img{
-            display: inline;
-            margin-right: 0;
+            top: 0;
+            right: 0;
+            bottom: 350px;
+            margin: auto;
+            margin-right: 10%;
+            font-size:var(--textFontSize);
         }
 
-        #home>aside{
-            border-radius: 45%;
-            width: 525px;
-            height: 708px;
-            overflow: hidden;
-            display: flex;
-            position: absolute;
-            right: 300px;
-            margin-top: 10px;
-        }
-        #home>aside:first-child>img{
-            width: 700px;
-            height: 1000px;
-            margin-right: 0;
-        }
-        #home>aside:nth-child(2)>img{
-            width: 700px;
-            height: 800px;
-            !*margin-left: 20px;*!
-        }
-        #home>aside>img{
-            animation-name: homeImageAnimation;
-            animation-duration: 7s;
-            animation-iteration-count: infinite;
-        }
-
-        @keyframes homeTextAnimation {
-            0%,20%{
-                transform: translateY(0);
-            }
-            25% ,45%{
-                transform: translateY(-115%);
-            }
-            50% , 70%{
-                transform: translateY(-215%);
-            }
-            75% ,100%{
-                transform: translateY(-320%);
-            }
-        }
-        @keyframes homeImageAnimation {
-            0%,45%{
-                transform: translateX(0);
-            }
-            50% ,95%{
-                transform: translateX(-100%);
-            }
-        }*/
     </style>
 
 </head>
@@ -131,7 +70,7 @@
         </div>
         <article>
 <!--            <span>HELLO</span>-->
-            <h1>I'm Chatura <br> Sandaruwan</h1>
+            <h1>I'm Chathura <br> Sandaruwan</h1>
             <hgroup>
                 <h2>Web Designer</h2>
                 <h2>Web Developer</h2>
@@ -147,14 +86,14 @@
     </aside>
 </section>
 <!--About me-->
-<section>
+<section id="about">
     <h2>About Me</h2>
 <!--    About me left-->
-    <div>
+    <aside>
         <img src="assets/images/About-me-png.png" title="MyGallery.lk" alt="About me photo">
-    </div>
+    </aside>
 <!--    About me right-->
-    <div>
+    <article>
         <p>Hello I'm Chathura Sandaruwan.In 2022,<br>
             I started my career as a software <br>
             engineer. I've beencreating,<br>
@@ -167,7 +106,7 @@
             including the discussion and <br>
             teamwork, is enjoyable to me.</p>
         <button type="button">Download CV</button>
-    </div>
+    </article>
 <!--    experience-->
     <div>
 <!--        right top-->
