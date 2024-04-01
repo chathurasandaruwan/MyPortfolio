@@ -31,3 +31,100 @@ header>nav>a{
 header>nav>a:hover{
     color: black;
 }
+
+/*home style*/
+
+#home{
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    height: calc(100vh - 200px);
+    background-color: #31304D;
+}
+#home>main>article>hgroup{
+    height: 43px;
+    overflow: hidden;
+    color: white;
+    font-size: 26px;
+    position: absolute;
+}
+#home>main>div{
+    position: relative;
+}
+#home>main>div>span{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+#home>main>article>h1{
+    color: white;
+    font-size: 60px;
+}
+#home>main>article>hgroup>h2{
+    margin: 0 ;
+    animation-name: homeTextAnimation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#home>main{
+    /*background-color: deepskyblue;*/
+    height: 60%;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+#home>main>div>img{
+    display: inline;
+    margin-right: 0;
+}
+
+#home>aside{
+    border-radius: 45%;
+    width: 525px;
+    height: 708px;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    right: 300px;
+    margin-top: 10px;
+}
+#home>aside:first-child>img{
+    width: 700px;
+    height: 1000px;
+    margin-right: 0;
+}
+#home>aside:nth-child(2)>img{
+    width: 700px;
+    height: 800px;
+    /*margin-left: 20px;*/
+}
+#home>aside>img{
+    animation-name: homeImageAnimation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes homeTextAnimation {
+    0%,20%{
+        transform: translateY(0);
+    }
+    25% ,45%{
+        transform: translateY(-115%);
+    }
+    50% , 70%{
+        transform: translateY(-215%);
+    }
+    75% ,100%{
+        transform: translateY(-320%);
+    }
+}
+@keyframes homeImageAnimation {
+    0%,45%{
+        transform: translateX(0);
+    }
+    50% ,95%{
+        transform: translateX(-100%);
+    }
+}
