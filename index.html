@@ -14,7 +14,8 @@
             margin: auto;
         }
         #skill>div:first-child{
-            padding-top: 10px;
+            padding-top: 50px;
+            padding-bottom: 30px;
             text-align: center;
             position: relative;
         }
@@ -38,7 +39,7 @@
             padding: 30px;
             position: absolute;
             right: 0;
-            top: 250px;
+            top: 300px;
             box-sizing: border-box;
         }
         .progress
@@ -73,8 +74,8 @@
             font-size:var(--textFontSize);
         }
         #skill>main>div:first-child{
-            background-color: deepskyblue;
-            padding-top: 10px;
+            padding-top: 50px;
+            padding-bottom: 20px;
             text-align: center;
             position: relative;
         }
@@ -83,6 +84,31 @@
         }
         #skill>main>div:first-child>h2{
             font-size:var(--topicFontSize);
+        }
+        #skill>main>div:nth-child(2){
+            display: flex;
+        }
+        #skill>main>div:nth-child(2)>div{
+            text-align: center;
+            width: calc(100%/3);
+            height: 300px;
+            border: 30px solid white;
+
+        }
+        #skill>main>div:nth-child(2)>div>div:first-child>img{
+            width: 150px;
+            aspect-ratio: 1/1;
+        }
+        #skill>main>div:nth-child(2)>div>div:nth-child(2){
+            padding-top: 30px;
+            background-color: #D9D9D9;
+            height: 300px;
+        }
+        #skill>main>div:nth-child(2)>div>div:nth-child(2)>h3{
+            font-size:var(--subtopicFontSize);
+        }
+        #skill>main>div:nth-child(2)>div>div:nth-child(2)>p{
+            font-size:var(--textFontSize);
         }
     </style>
 
@@ -262,43 +288,47 @@
             <span>WHAT I DO</span>
             <h2>Strategy, design and a bit of magic</h2>
         </div>
-<!--        what i do left-->
+
+        <!--        what i do -->
         <div>
+            <!--        what i do left-->
             <div>
-                <img src="assets/images/icons8-laptop-coding-64.png" alt="coding png">
+                <div>
+                    <img src="assets/images/icons8-laptop-coding-64.png" alt="coding png">
+                </div>
+                <div>
+                    <h3>Desktop Application</h3>
+                    <p>Create modern desktop <br>
+                        Application using new <br>
+                        Ideas.
+                    </p>
+                </div>
             </div>
+            <!--        what i do center-->
             <div>
-                <h3>Desktop Application</h3>
-                <p>Create modern desktop <br>
-                    Application using new <br>
-                    Ideas.
-                </p>
+                <div>
+                    <img src="assets/images/icons8-web-development-50.png" alt="web development png">
+                </div>
+                <div>
+                    <h3>Web Development</h3>
+                    <p>Create modern Web <br>
+                        Application with new <br>
+                        awesome ideas.
+                    </p>
+                </div>
             </div>
-        </div>
-<!--        what i do center-->
-        <div>
+            <!--        what i do right-->
             <div>
-                <img src="assets/images/icons8-web-development-50.png" alt="web development png">
-            </div>
-            <div>
-                <h3>Web Development</h3>
-                <p>Create modern Web <br>
-                    Application with new <br>
-                    awesome ideas.
-                </p>
-            </div>
-        </div>
-<!--        what i do right-->
-        <div>
-            <div>
-                <img src="assets/images/icons8-pen-50.png" alt="web development png">
-            </div>
-            <div>
-                <h3>Web Development</h3>
-                <p>Create modern Web <br>
-                    Application with new <br>
-                    awesome ideas.
-                </p>
+                <div>
+                    <img src="assets/images/icons8-pen-50.png" alt="web development png">
+                </div>
+                <div>
+                    <h3>Web Development</h3>
+                    <p>Create modern Web <br>
+                        Application with new <br>
+                        awesome ideas.
+                    </p>
+                </div>
             </div>
         </div>
 
