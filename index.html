@@ -146,9 +146,9 @@
             right: 30%;
             border-radius: 50px;
         }
-       /* #lineOfCode>div:nth-child(3)>h1{
-            margin-top: 45px;
-        }*/
+        #lineOfCode>div:nth-child(3)>div>div>h1{
+            margin: 0;
+        }
         #lineOfCode>div:nth-child(2)>div>div>h1{
             margin:0;
         }
@@ -156,12 +156,30 @@
             height: 200px;
             animation-name: lineOfCodeAnimation;
             animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+        #lineOfCode>div:nth-child(3)>div>div{
+            height: 200px;
+            animation-name: lineOfCodeAnimation;
+            animation-duration: 1s;
+            animation-timing-function: linear;
             animation-fill-mode: forwards;
         }
         #lineOfCode>div:nth-child(2)>div{
             height: 40px;
             width: 100px;
-            background-color: deepskyblue;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            overflow: hidden;
+        }
+        #lineOfCode>div:nth-child(3)>div{
+            height: 40px;
+            width: 100px;
             position: absolute;
             top: 0;
             right: 0;
@@ -432,9 +450,20 @@
                     <h1>10</h1>
                 </div>
             </div>
-
         </div>
-        <div><h1>80000</h1></div>
+
+        <div>
+            <div>
+                <div>
+                    <h1>1000</h1>
+                    <h1>2000</h1>
+                    <h1>3000</h1>
+                    <h1>4000</h1>
+                    <h1>6000</h1>
+                    <h1>8000</h1>
+                </div>
+            </div>
+        </div>
         <div>
             <h4>PROJECTS</h4>
         </div>
