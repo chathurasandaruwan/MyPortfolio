@@ -115,7 +115,7 @@ header>nav>a:hover{
 /*about me style*/
 #about{
     position: relative;
-    height: 150rem;
+    height: 145rem;
 }
 #about>h2:first-child{
     width: 220px;
@@ -205,8 +205,6 @@ header>nav>a:hover{
 #skill{
     position: relative;
     max-width: 1540px;
-    padding-top: 30px;
-    padding-bottom: 30px;
     margin: auto;
 }
 #skill>div:first-child{
