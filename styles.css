@@ -44,8 +44,9 @@ header>nav>a:hover{
     display: flex;
     position: relative;
     margin-top: 100px;
-    height: calc(100vh - 200px);
+    /*height: calc(100vh - 200px);*/
     background-color: #31304D;
+    height: 750px;
 }
 #home>main>article>hgroup{
     height: 43px;
