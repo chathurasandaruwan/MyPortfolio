@@ -146,11 +146,53 @@
             right: 30%;
             border-radius: 50px;
         }
-        #lineOfCode>div:nth-child(3)>h1{
+       /* #lineOfCode>div:nth-child(3)>h1{
             margin-top: 45px;
+        }*/
+        #lineOfCode>div:nth-child(2)>div>div>h1{
+            margin:0;
         }
-        #lineOfCode>div:nth-child(2)>h1{
-            margin-top: 45px;
+        #lineOfCode>div:nth-child(2)>div>div{
+            height: 200px;
+            animation-name: lineOfCodeAnimation;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+        #lineOfCode>div:nth-child(2)>div{
+            height: 40px;
+            width: 100px;
+            background-color: deepskyblue;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            overflow: hidden;
+        }
+        /*#lineOfCode>div:nth-child(2):hover{
+            animation-name: lineOfCodeAnimation;
+            animation-delay: 3s;
+        }*/
+        @keyframes lineOfCodeAnimation {
+            0%{
+                transform: translateY(0%);
+            }
+            20%{
+                transform: translateY(-20%);
+            }
+            40%{
+                transform: translateY(-40%);
+            }
+            60%{
+                transform: translateY(-60%);
+            }
+            80%{
+                transform: translateY(-80%);
+            }
+            100%{
+                transform: translateY(-90%);
+            }
         }
 
     </style>
@@ -379,7 +421,19 @@
 <!--    line of code calculation on png-->
     <div id="lineOfCode">
         <img src="assets/images/line-of-code-bg.jpg" alt="line of code bg">
-        <div><h1>10</h1></div>
+        <div>
+            <div>
+                <div>
+                    <h1>1</h1>
+                    <h1>2</h1>
+                    <h1>4</h1>
+                    <h1>6</h1>
+                    <h1>8</h1>
+                    <h1>10</h1>
+                </div>
+            </div>
+
+        </div>
         <div><h1>80000</h1></div>
         <div>
             <h4>PROJECTS</h4>
