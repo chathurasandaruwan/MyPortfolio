@@ -115,6 +115,7 @@ header>nav>a:hover{
 /*about me*/
 #about{
     position: relative;
+    height: 150rem;
 }
 #about>h2:first-child{
     width: 220px;
