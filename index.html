@@ -26,19 +26,58 @@
         }
         #assignment>div:nth-child(2){
             background-color: #F0ECE5;
+            height: 25rem;
             border-radius: 20px;
             display: flex;
+            justify-content: space-between;
+        }
+        #assignment>div:nth-child(2)>div{
+            width: 28rem;
+            height: 22rem;
+            border-radius: 20px;
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+            display: block;
+        }
+        #assignment>div:nth-child(2)>div>h4{
+            font-size:var(--textFontSize);
+        }
+        #assignment>div:nth-child(2)>div:first-child:hover>div:nth-child(3){
+            position: absolute;
+            top: 0;
+            margin: auto;
+            transition-property: all;
+
+        }
+        #assignment>div:nth-child(2)>div:first-child:hover>div:nth-child(4){
+            position: absolute;
+            top: 0;
+            margin: auto;
+            transition-property: all;
+
+        }
+        #assignment>div:nth-child(2)>div:first-child>div:nth-child(3){
+            background-color: black;
+            opacity: 50%;
+            width: 28rem;
+            height: 18rem;
+            border-radius: 20px;
+        }
+        #assignment>div:nth-child(2)>div:first-child>div:nth-child(4){
+            width: 28rem;
+            height: 18rem;
+            border-radius: 20px;
+        }
+        #assignment>div:nth-child(2)>div:first-child>div:nth-child(4)>h2{
+            color: white;
+            font-size:var(--topicFontSize);
+            margin-top: 20%;
         }
         #assignment>div:nth-child(2)>div>div>img{
             width: 28rem;
             height: 18rem;
             border-radius: 20px;
-        }
-        #assignment>div:nth-child(2)>div:first-child>div>img{
-            margin-right: 98px;
-        }
-        #assignment>div:nth-child(2)>div:nth-child(2)>div>img{
-            margin-right: 98px;
         }
     </style>
 
@@ -318,6 +357,7 @@
                     <div>
                         <img src="assets/images/css layouts.png" alt="css layout png">
                     </div>
+                    <h4>Assignment 01</h4>
                     <div></div>
 <!--                    while hovering-->
                     <div>
@@ -326,7 +366,6 @@
                             <a target="_blank" href="http://localhost">view</a>
                         </button>
                     </div>
-                    <h4>Assignment 01</h4>
                 </div>
 
 <!--                Assignment 2-->
@@ -334,7 +373,7 @@
                     <div>
                         <img src="assets/images/css layouts.png" alt="css layout png" >
                     </div>
-                    <div></div>
+<!--                    <div></div>-->
 <!--                    while hovering-->
                     <div>
                         <h2>CSS Layout</h2>
