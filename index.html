@@ -22,10 +22,32 @@
         footer>div:first-child>h3{
             font-size:var(--textFontSize);
         }
+        footer>div:nth-child(2){
+            background-color: green;
+            width: 30%;
+            display: flex;
+            position: relative;
+        }
         footer>div:nth-child(2)>div{
             font-size:var(--topicFontSize);
-            position: absolute;
-            left: 30%;
+            padding: 20px;
+            /*position: absolute;*/
+            /*left: 15%;*/
+        }
+        footer>div:nth-child(2)>p{
+            font-size:var(--textFontSize);
+            /*position: absolute;*/
+            /*left: 20%;*/
+        }
+        footer>div:nth-child(3)>div{
+            font-size:var(--topicFontSize);
+            /*position: absolute;*/
+            /*left: 60%;*/
+        }
+        footer>div:nth-child(3)>p{
+            font-size:var(--textFontSize);
+            /*position: absolute;*/
+            /*left: 65%;*/
         }
     </style>
 
@@ -624,7 +646,8 @@
     <div>
 <!--        call icon-->
         <div>
-            <img src="assets/images/call-icon.png" title="mobitel.com" alt="phone icon" width="40">
+<!--            <img src="assets/images/call-icon.png" title="mobitel.com" alt="phone icon" width="40">-->
+            <i class="fa-solid fa-phone"></i>
         </div>
         <p>
             0711489668
