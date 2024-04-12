@@ -23,7 +23,7 @@
         #project>div:first-child>div>p{
             font-size:var(--textFontSize);
         }
-        #project>div:nth-child(2)>img{
+        #project>aside>img{
             width: 675px;
             height: 450px;
             position: absolute;
@@ -33,16 +33,35 @@
             bottom: 0;
             margin: auto;
         }
-        #project>div:nth-child(2){
+        #project>aside{
             width: 675px;
             height: 450px;
             overflow: hidden;
             position: relative;
+            margin-bottom: 30px;
         }
-        #project>div:nth-child(2):hover>img{
-            width: 695px;
-            height: 470px;
+        #project>aside:hover>img{
+            width: 681px;
+            height: 465px;
             transition: .5s;
+        }
+        #project>article{
+            /*background-color: #96EFFF;*/
+            width: 30%;
+            height: 450px;
+            position: absolute;
+            right: 250px;
+            top: 245px;
+            text-align: center;
+        }
+        #project>article>div>h3{
+            font-size:var(--subtopicFontSize);
+        }
+        #project>article>div>p{
+            font-size:var(--textFontSize);
+        }
+        #project>article>div>div{
+            margin-top: 80px;
         }
     </style>
 
@@ -532,15 +551,11 @@
         </div>
     </div>
 <!--    project 01 left-->
-    <div>
+    <aside>
         <img src="assets/images/project-01-normal.png" alt="project 01 normal png">
-    </div>
-<!--    while hovering-->
-    <!--<div>
-        <img src="assets/images/project-01-while hovering.png" alt="project 01 while hovering png" width="675" height="447">
-    </div>-->
+    </aside>
 <!--    project 01 right-->
-    <div>
+    <article>
         <div>
             <h3>Tailor shop <br>
                 management System
@@ -557,9 +572,8 @@
                 <a href="http://localhost">https://github.com/chathurasandaruwan.git</a>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
+    </article>
+
 
     <!--    project 02 left-->
     <div>
