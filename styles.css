@@ -1273,6 +1273,7 @@ header>nav>a:hover{
     margin-top: 50px;
     border: none;
     border-bottom: 1px solid black;
+    background: none;
     opacity: 50%;
 }
 #contact>form>div>textarea:hover{
