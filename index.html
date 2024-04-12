@@ -38,15 +38,14 @@
             height: 450px;
             overflow: hidden;
             position: relative;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
         }
         #project>aside:hover>img{
             width: 681px;
             height: 465px;
             transition: .5s;
         }
-        #project>article{
-            /*background-color: #96EFFF;*/
+        #project>article:nth-child(3){
             width: 30%;
             height: 450px;
             position: absolute;
@@ -62,6 +61,14 @@
         }
         #project>article>div>div{
             margin-top: 80px;
+        }
+        #project>article:nth-child(5){
+            width: 30%;
+            height: 450px;
+            position: absolute;
+            right: 250px;
+            top: 750px;
+            text-align: center;
         }
     </style>
 
@@ -576,15 +583,11 @@
 
 
     <!--    project 02 left-->
-    <div>
-        <img src="assets/images/project-02-normal.png" alt="project 02 normal png" width="675" height="447">
-    </div>
-    <!--    while hovering-->
-    <div>
-        <img src="assets/images/project-02-while-hovering.png" alt="project 02 while hovering png" width="675" height="447">
-    </div>
+    <aside>
+        <img src="assets/images/project-02-normal.png" alt="project 02 normal png">
+    </aside>
     <!--    project 02 right-->
-    <div>
+    <article>
         <div>
             <h3>Simple Chat room</h3>
             <p>I created this project,<br>
@@ -598,7 +601,7 @@
                 <a href="http://localhost">https://github.com/chathurasandaruwan.git</a>
             </div>
         </div>
-    </div>
+    </article>
     <br>
     <br>
     
