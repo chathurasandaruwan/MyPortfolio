@@ -25,7 +25,6 @@
             font-size:var(--textFontSize);
         }
         footer>div:nth-child(2){
-            /*background-color: green;*/
             width: 30%;
             height: 90px;
             display: flex;
@@ -36,16 +35,11 @@
         footer>div:nth-child(2)>div{
             font-size:var(--topicFontSize);
             padding: 20px;
-            /*position: absolute;*/
-            /*left: 15%;*/
         }
         footer>div:nth-child(2)>p{
             font-size:var(--textFontSize);
-            /*position: absolute;*/
-            /*left: 20%;*/
         }
         footer>div:nth-child(3){
-            /*background-color: green;*/
             width: 30%;
             height: 90px;
             display: flex;
@@ -56,13 +50,9 @@
         footer>div:nth-child(3)>div{
             font-size:var(--topicFontSize);
             padding: 20px;
-            /*position: absolute;*/
-            /*left: 60%;*/
         }
         footer>div:nth-child(3)>p{
             font-size:var(--textFontSize);
-            /*position: absolute;*/
-            /*left: 65%;*/
         }
         footer>div:nth-child(3)::before{
             content: "";
@@ -100,6 +90,7 @@
         footer>div:nth-child(4)>div:first-child>div:hover{
             color: white;
             background-color: #31304D;
+            transition-duration: .5s;
         }
 
         footer>div:nth-child(4)>div:nth-child(2){
@@ -118,6 +109,7 @@
         footer>div:nth-child(4)>div:nth-child(2)>div:hover{
             color: white;
             background-color: #31304D;
+            transition-duration: .5s;
         }
         footer>div:nth-child(4)>div:nth-child(3){
             background-color: white;
@@ -136,6 +128,22 @@
         footer>div:nth-child(4)>div:nth-child(3)>div:hover{
             color: white;
             background-color: #31304D;
+            transition-duration: .5s;
+        }
+        footer>div:last-child{
+            position: absolute;
+            bottom: 30px;
+            left: calc(50% - 250px);
+        }
+        footer>div:last-child>a{
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        footer>div:last-child>a:hover{
+            font-size: 18px;
+            transition-duration: .5s;
         }
     </style>
 
@@ -723,7 +731,6 @@
     <div>
 <!--        email logo-->
         <div>
-<!--            <img src="assets/images/emailIcon.png" title="gmail.com" alt="email logo" width="40">-->
             <i class="fa-solid fa-envelope"></i>
         </div>
         <p>
@@ -735,7 +742,6 @@
     <div>
 <!--        call icon-->
         <div>
-<!--            <img src="assets/images/call-icon.png" title="mobitel.com" alt="phone icon" width="40">-->
             <i class="fa-solid fa-phone"></i>
         </div>
         <p>
@@ -748,7 +754,6 @@
         <div>
 <!--            normal-->
             <div>
-<!--                <img src="assets/images/gitlogo.png" title="github.com" alt="git logo " width="48">-->
                 <i class="fa-brands fa-github"></i>
             </div>
         </div>
@@ -756,7 +761,6 @@
         <div>
 <!--            normal-->
             <div>
-<!--                <img src="assets/images/libkedIn logo.png" title="linkedIn.com" alt="linked logo " width="48">-->
                 <i class="fa-brands fa-linkedin"></i>
             </div>
         </div>
@@ -765,11 +769,10 @@
 <!--            normal-->
             <div>
                 <i class="fa-brands fa-facebook"></i>
-<!--                <img src="assets/images/fbLogo.png" title="facebook.lk" alt="facebook logo" width="48">-->
             </div>
         </div>
     </div>
-    <div>©2024. All Rights Reserved.Developed by <a href="">chathura</a></div>
+    <div>©2024. All Rights Reserved.Developed by <a href="">Chathura .</a></div>
 </footer>
 <script src="assets/fontawesome-free-6.5.1-web/js/all.min.js"></script>
 </body>
