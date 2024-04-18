@@ -305,6 +305,7 @@ header>nav>a:hover{
 #skill>main>div:nth-child(2)>div>div:nth-child(2):hover{
     background-color: #31304D;
     color: white;
+    transition-duration: 1s;
 }
 #skill>main>div:nth-child(2)>div>div:nth-child(2)>h3{
     font-size:var(--subtopicFontSize);
