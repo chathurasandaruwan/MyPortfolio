@@ -36,6 +36,10 @@ header>nav>a{
     font-family: 'Montserrat', sans-serif;
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
+    transition-duration: .5s;
+}
+header > nav > a:active {
+    transition-duration: 1s; /* Transition speed when link is active */
 }
 header>nav>a:hover{
     color: black;
@@ -1445,9 +1449,9 @@ footer>div:nth-child(4)>div:nth-child(2){
     margin-left: 180px;
 }
 footer>div:nth-child(4)>div:nth-child(2)>div{
-    font-size: 50px;
+    font-size: 52px;
     color: #31304D;
-    margin-top: -5px;
+    margin-top: -6px;
 }
 footer>div:nth-child(4)>div:nth-child(2)>div:hover{
     color: white;
