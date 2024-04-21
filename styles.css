@@ -56,6 +56,12 @@ header>nav>a:hover{
     background-color: #31304D;
     height: 750px;
 }
+#home>main{
+    height: 60%;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
 #home>main>article>hgroup{
     height: 43px;
     overflow: hidden;
@@ -64,13 +70,27 @@ header>nav>a:hover{
     position: absolute;
 }
 #home>main>div{
-    position: relative;
-}
-#home>main>div>span{
+    height: 45px;
+    width: 150px;
     position: absolute;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: -30px;
+}
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    font-size:var(--topicFontSize);
+}
+#home>main>div>span:first-child{
+    position: absolute;
+}
+#home>main>div>span:nth-child(2){
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 70px;
     color: white;
+    font-size:var(--textFontSize);
 }
 #home>main>article>h1{
     color: white;
@@ -82,12 +102,6 @@ header>nav>a:hover{
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
-#home>main{
-    height: 60%;
-    position: absolute;
-    top: 200px;
-    left: 400px;
 }
 #home>main>div>img{
     display: inline;
@@ -361,7 +375,7 @@ header>nav>a:hover{
 #skill>main>div:nth-child(2)>div>div:nth-child(2):hover{
     background-color: #31304D;
     color: white;
-    transition-duration: 1s;
+    transition:1s ease-in-out;
 }
 #skill>main>div:nth-child(2)>div>div:nth-child(2)>h3{
     font-size:var(--subtopicFontSize);
@@ -1495,7 +1509,16 @@ footer>div:last-child>a:hover{
     font-size: 18px;
     transition-duration: .5s;
 }
-
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+}
 
 @keyframes lineOfCodeAnimation {
     0%{
