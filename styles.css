@@ -371,11 +371,13 @@ header>nav>a:hover{
     background-color: #D9D9D9;
     height: 75%;
     box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition-duration: 1s;
 }
 #skill>main>div:nth-child(2)>div>div:nth-child(2):hover{
     background-color: #31304D;
     color: white;
-    transition:1s ease-in-out;
 }
 #skill>main>div:nth-child(2)>div>div:nth-child(2)>h3{
     font-size:var(--subtopicFontSize);
