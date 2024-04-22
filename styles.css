@@ -506,16 +506,31 @@ header>nav>a:hover{
     font-size:var(--textFontSize);
 }
 /*first 03*/
-#assignment>div:nth-child(2)>div>div>img{
+
+
+/*#assignment>div:nth-child(2)>div>div>img{
     width: 28rem;
     height: 18rem;
     border-radius: 20px;
+}*/
+#assignment>div:nth-child(2)>div>div{
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+    border: 3px solid #B6BBC4;
+    box-shadow: 1px 4px 5px 0px #B6BBC4;
+    box-sizing: border-box;
 }
+
+
+
 #assignment>div:nth-child(2){
     background-color: #F0ECE5;
     height: 25rem;
     border-radius: 20px;
     display: flex;
+    padding: 20px;
+    box-sizing: border-box;
     justify-content: space-between;
 }
 #assignment>div:nth-child(2)>div{
@@ -531,6 +546,11 @@ header>nav>a:hover{
     font-size:var(--textFontSize);
 }
 /*CSS Layout  01*/
+#assignment>div:nth-child(2)>div:nth-child(1)>div:first-child{
+    background: url("assets/images/AS01-case1.png");
+    background-size: cover;
+    background-position: center;
+}
 #assignment>div:nth-child(2)>div:first-child:hover>div:nth-child(3){
     position: absolute;
     top: 0;
@@ -581,6 +601,11 @@ header>nav>a:hover{
     color: white;
 }
 /*CSS Layout  02*/
+#assignment>div:nth-child(2)>div:nth-child(2)>div:first-child{
+    background: url("assets/images/AS01-case2.png");
+    background-size: cover;
+    background-position: center;
+}
 #assignment>div:nth-child(2)>div:nth-child(2):hover>div:nth-child(3){
     position: absolute;
     top: 0;
@@ -631,6 +656,12 @@ header>nav>a:hover{
     color: white;
 }
 /*CSS Layout  03*/
+#assignment>div:nth-child(2)>div:nth-child(3)>div:first-child{
+
+    background: url("assets/gif/AS01-case3.gif");
+    background-size: cover;
+    background-position: center;
+}
 #assignment>div:nth-child(2)>div:nth-child(3):hover>div:nth-child(3){
     position: absolute;
     top: 0;
