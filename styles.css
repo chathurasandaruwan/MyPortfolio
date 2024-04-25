@@ -1266,18 +1266,18 @@ header>nav>a:hover{
     right: 0;
     bottom: 0;
     margin: auto;
+    transition: .5s ease-in-out;
 }
 #project>aside{
     width: 675px;
     height: 450px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: relative;
     margin-bottom: 50px;
 }
 #project>aside:hover>img{
     width: 681px;
     height: 465px;
-    transition: .5s;
 }
 #project>article:nth-child(3){
     width: 30%;
@@ -1307,17 +1307,24 @@ header>nav>a:hover{
     position: absolute;
     top: 0;
     left: 0;
+
 }
 #project>article:nth-child(3)>div>div>button{
     height: 40px;
     width: 250px;
     border-radius: 30px;
-    border: 3px solid deepskyblue;
-    background-color: white;
+    /*border: 3px solid deepskyblue;*/
+    border: 3px solid #31304D;
+    background-color: #B6BBC4;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    transition: ease-in-out 1s;
 }
+
 #project>article:nth-child(3)>div>div>button>a{
     text-decoration: none;
-    color: deepskyblue;
+    color: #31304D;
     font-weight: bold;
 }
 
@@ -1361,12 +1368,18 @@ header>nav>a:hover{
     height: 40px;
     width: 250px;
     border-radius: 30px;
-    border: 3px solid deepskyblue;
-    background-color: white;
+    /*border: 3px solid deepskyblue;*/
+    border: 3px solid #31304D;
+    background-color: #B6BBC4;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    transition: ease-in-out 1s;
 }
 #project>article:nth-child(5)>div>div>button>a{
     text-decoration: none;
-    color: deepskyblue;
+    /*color: deepskyblue;*/
+    color: #31304D;
     font-weight: bold;
 }
 
