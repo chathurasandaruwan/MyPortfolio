@@ -117,6 +117,8 @@ header>nav>a:hover{
     position: absolute;
     right: 300px;
     margin-top: 10px;
+    opacity: 90%;
+    border: 2px solid #B6BBC4;
 }
 #home>aside:first-child>img{
     width: 700px;
