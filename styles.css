@@ -152,7 +152,7 @@ header>nav>a:hover{
 #about>aside>img{
     width: 30%;
     height: 700px;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 #about>article{
     width: 40%;
@@ -176,6 +176,7 @@ header>nav>a:hover{
     font-size: 18px;
     margin-top: 40px;
     border: 4px solid #B6BBC4;
+    transition: ease-in-out .5s;
 }
 #about>article>button:hover{
     background-color: #31304D;
