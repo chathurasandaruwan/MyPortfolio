@@ -12,7 +12,7 @@ html {
 /*header style*/
 header{
     top: 0;
-    height: 100px;
+    height: 90px;
     width: 100vw;
     background: #B6BBC4;
     position: fixed;
@@ -26,7 +26,7 @@ header>nav{
 }
 header>div{
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 50px;
 }
 header>div>img{
@@ -52,7 +52,7 @@ header>nav>a:hover{
 #home{
     display: flex;
     position: relative;
-    margin-top: 100px;
+    margin-top: 90px;
     background-color: #31304D;
     height: 750px;
 }
@@ -1242,8 +1242,9 @@ header>nav>a:hover{
 /*projects*/
 #project{
     position: relative;
-    max-width: 1540px;
+    /*max-width: 1540px;*/
     margin: auto;
+    background-color: #B6BBC4;
 }
 #project>div:first-child{
     padding-top: 40px;
@@ -1274,6 +1275,7 @@ header>nav>a:hover{
     /*overflow: hidden;*/
     position: relative;
     margin-bottom: 50px;
+    margin-left: 15%;
 }
 #project>aside:hover>img{
     width: 681px;
