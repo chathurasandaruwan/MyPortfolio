@@ -830,6 +830,63 @@ header>nav>a:hover{
 #assignment>div:nth-child(2)>div:nth-child(5)>div:nth-child(4)>button:hover>a{
     color: white;
 }
+
+/*CSS Layout  06*/
+#assignment>div:nth-child(2)>div:nth-child(6)>div:first-child{
+
+    background: url("assets/gif/AS01-case3.gif");
+    background-size: cover;
+    background-position: center;
+}
+#assignment>div:nth-child(2)>div:nth-child(6):hover>div:nth-child(3){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(2)>div:nth-child(6):hover>div:nth-child(4){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(2)>div:nth-child(6)>div:nth-child(3){
+    background-color: black;
+    opacity: 70%;
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(2)>div:nth-child(6)>div:nth-child(4){
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(2)>div:nth-child(6)>div:nth-child(4)>h2{
+    color: white;
+    font-size:var(--topicFontSize);
+    margin-top: 20%;
+}
+#assignment>div:nth-child(2)>div:nth-child(6)>div:nth-child(4)>button{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+#assignment>div:nth-child(2)>div:nth-child(6)>div:nth-child(4)>button>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#assignment>div:nth-child(2)>div:nth-child(6)>div:nth-child(4)>button:hover{
+    background-color: #31304D;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition-duration: 2s;
+}
+#assignment>div:nth-child(2)>div:nth-child(6)>div:nth-child(4)>button:hover>a{
+    color: white;
+}
 /*second 03*/
 #assignment>div:nth-child(3)>div>div>img{
     width: 28rem;
