@@ -737,7 +737,7 @@ header>nav>a:hover{
 /*CSS Layout  04*/
 #assignment>div:nth-child(2)>div:nth-child(4)>div:first-child{
 
-    background: url("assets/gif/AS01-case3.gif");
+    background: url("assets/gif/AS01-case4.gif");
     background-size: cover;
     background-position: center;
 }
@@ -794,7 +794,7 @@ header>nav>a:hover{
 /*CSS Layout  05*/
 #assignment>div:nth-child(2)>div:nth-child(5)>div:first-child{
 
-    background: url("assets/gif/AS01-case3.gif");
+    background: url("assets/images/AS01-case5.png");
     background-size: cover;
     background-position: center;
 }
@@ -851,7 +851,7 @@ header>nav>a:hover{
 /*CSS Layout  06*/
 #assignment>div:nth-child(2)>div:nth-child(6)>div:first-child{
 
-    background: url("assets/gif/AS01-case3.gif");
+    background: url("assets/images/AS01-case6.png");
     background-size: cover;
     background-position: center;
 }
