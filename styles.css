@@ -925,7 +925,7 @@ header>nav>a:hover{
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-direction: alternate;
+    animation-direction: alternate-reverse;
 }
 #assignment>div:nth-child(3):hover{
     animation-play-state: paused;
