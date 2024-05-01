@@ -537,6 +537,23 @@ header>nav>a:hover{
     padding: 20px;
     box-sizing: border-box;
     overflow-x: unset;
+    animation-name: assignmentTransformAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+#assignment>div:nth-child(2):hover{
+    animation-play-state: paused;
+}
+
+@keyframes assignmentTransformAnim {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
 }
 #assignment>div:nth-child(2)>div{
     width: 28rem;
