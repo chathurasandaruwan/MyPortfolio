@@ -531,7 +531,7 @@ header>nav>a:hover{
     padding: 20px;
     box-sizing: border-box;
     overflow-x: unset;
-    animation-name: assignmentTransformAnim;
+    animation-name: assignmentTransformAnim1;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -541,7 +541,7 @@ header>nav>a:hover{
     animation-play-state: paused;
 }
 
-@keyframes assignmentTransformAnim {
+@keyframes assignmentTransformAnim1 {
     from{
         transform: translateX(0);
     }
@@ -916,9 +916,28 @@ header>nav>a:hover{
     background-color: #F0ECE5;
     height: 25rem;
     border-radius: 20px;
-    display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    display: block ruby;
+    overflow-x: unset;
+    animation-name: assignmentTransformAnim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+#assignment>div:nth-child(3):hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes assignmentTransformAnim2 {
+    from{
+        transform: translateX(15%);
+    }
+    to{
+        transform: translateX(-15%);
+    }
 }
 #assignment>div:nth-child(3)>div{
     width: 28rem;
@@ -928,6 +947,8 @@ header>nav>a:hover{
     text-align: center;
     position: relative;
     display: block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #assignment>div:nth-child(3)>div>h4{
     font-size:var(--textFontSize);
@@ -988,7 +1009,12 @@ header>nav>a:hover{
 #assignment>div:nth-child(3)>div:first-child>div:nth-child(4)>button:hover>a{
     color: white;
 }
-/*CSS Layout  05*/
+/*CSS Transition  02*/
+#assignment>div:nth-child(3)>div:nth-child(2)>div:first-child{
+    background: url("assets/gif/AS02-case2.gif");
+    background-size: cover;
+    background-position: center;
+}
 #assignment>div:nth-child(3)>div:nth-child(2):hover>div:nth-child(3){
     position: absolute;
     top: 0;
