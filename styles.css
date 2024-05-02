@@ -47,6 +47,47 @@ header > nav > a:active {
 header>nav>a:hover{
     color: black;
 }
+
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    header{
+        background-color: #ff253a;
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px) {
+    header {
+        background-color: blue;
+    }
+}
+@media all and (min-width: 769px ) and (max-width: 834px){
+    header{
+        background-color: #96EFFF;
+        top: 0;
+        height: 300px;
+        width: 100vw;
+        position: fixed;
+        z-index: 4;
+    }
+    header>nav{
+        display: grid;
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+    header>div>img{
+        height: 60px;
+        width: 110px;
+    }
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+    header{
+        background-color: yellow;
+    }
+}
+@media all and (min-width: 321px ) and (max-width: 460px){
+    header{
+        background-color: blueviolet;
+    }
+}
 /*home style*/
 
 #home{
