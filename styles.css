@@ -42,7 +42,7 @@ header>nav>a{
     transition-duration: .5s;
 }
 header > nav > a:active {
-    transition-duration: 1s; /* Transition speed when link is active */
+    transition-duration: 1s;
 }
 header>nav>a:hover{
     color: black;
@@ -74,12 +74,30 @@ label .close-btn{
 
 @media all and (min-width: 1025px ) and (max-width: 1440px){
     header{
-        background-color: #ff253a;
+        top: 0;
+        height: 80px;
+        width: 100vw;
+        position: fixed;
+        z-index: 4;
+        transition: ease-in-out .5s;
+    }
+    header>div{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+    }
+    header>div>img{
+        height: 65px;
+        width: 110px;
+    }
+    header>nav{
+        position: absolute;
+        top: 35px;
+        right: 50px;
     }
 }
 @media all and (min-width: 835px ) and (max-width: 1024px) {
     header{
-        background-color: #B6BBC4;
         top: 0;
         height: 70px;
         width: 100vw;
@@ -337,6 +355,12 @@ label .close-btn{
     animation-duration: 7s;
     animation-iteration-count: infinite;
 }
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    #home{
+        margin-top: 80px;
+    }
+}
+
 @media all and (min-width: 835px ) and (max-width: 1024px) {
     #home{
         margin-top: 70px;
