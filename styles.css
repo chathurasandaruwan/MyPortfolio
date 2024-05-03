@@ -197,7 +197,56 @@ label .close-btn{
 }
 @media all and (min-width: 321px ) and (max-width: 460px){
     header{
-        background-color: blueviolet;
+        background-color: white;
+        top: 0;
+        height: 60px;
+        width: 100vw;
+        position: fixed;
+        z-index: 4;
+        transition: ease-in-out .5s;
+    }
+    header>nav{
+        display: grid;
+        position: absolute;
+        top: -300px;
+        left: 20px;
+        transition: ease-in-out .5s;
+        z-index: 0;
+    }
+    header>div{
+        position: absolute;
+        top: 5px;
+        left: 15px;
+    }
+    header>div>img{
+        height: 50px;
+        width: 100px;
+    }
+    label .menu-btn,
+    label .close-btn{
+        height: 30px;
+        width: 35px;
+        margin-top: -45px;
+    }
+    #check:checked ~ label .menu-btn{
+        opacity: 0;
+        visibility: hidden;
+        margin-top: 190px;
+    }
+    #check:checked ~ label .close-btn{
+        opacity: 1;
+        visibility: visible;
+        margin-top: 190px;
+    }
+    label .menu-btn,
+    label .close-btn{
+        display: block;
+    }
+    #check:checked ~ header>nav{
+        top: 60px;
+    }
+    #check:checked ~ header{
+        height: 300px;
     }
 }
 /*home style*/
@@ -302,6 +351,11 @@ label .close-btn{
 @media all and (min-width: 461px ) and (max-width: 768px){
     #home{
         margin-top: 70px;
+    }
+}
+@media all and (min-width: 321px ) and (max-width: 460px){
+    #home{
+        margin-top: 60px;
     }
 }
 /*about me style*/
