@@ -1917,7 +1917,16 @@ label .close-btn{
     width: 681px;
     height: 465px;
 }
-#project>article:nth-child(3){
+#project>div:nth-child(2){
+    width: calc(100vw - 200px);
+    height: 480px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 100px;
+    top: 220px;
+    border-radius: 20px;
+}
+#project>article:nth-child(4){
     width: 30%;
     height: 450px;
     position: absolute;
@@ -1927,7 +1936,7 @@ label .close-btn{
 }
 
 
-#project>article:nth-child(3)>div>div{
+#project>article:nth-child(4)>div>div{
     height: 50px;
     width: 250px;
     position: absolute;
@@ -1936,18 +1945,18 @@ label .close-btn{
     margin: auto;
     overflow: hidden;
 }
-#project>article:nth-child(3)>div>div>div:first-child{
+#project>article:nth-child(4)>div>div>div:first-child{
     height: 50px;
     width: 250px;
     border-radius: 10%;
 }
-#project>article:nth-child(3):hover>div>div>button{
+#project>article:nth-child(4):hover>div>div>button{
     position: absolute;
     top: 0;
     left: 0;
 
 }
-#project>article:nth-child(3)>div>div>button{
+#project>article:nth-child(4)>div>div>button{
     height: 40px;
     width: 250px;
     border-radius: 30px;
@@ -1960,7 +1969,7 @@ label .close-btn{
     transition: ease-in-out 1s;
 }
 
-#project>article:nth-child(3)>div>div>button>a{
+#project>article:nth-child(4)>div>div>button>a{
     text-decoration: none;
     color: #31304D;
     font-weight: bold;
@@ -1975,7 +1984,16 @@ label .close-btn{
 #project>article>div>div{
     margin-top: 80px;
 }
-#project>article:nth-child(5){
+#project>div:nth-child(5){
+    width: calc(100vw - 200px);
+    height: 480px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 100px;
+    top: 720px;
+    border-radius: 20px;
+}
+#project>article:nth-child(7){
     width: 30%;
     height: 450px;
     position: absolute;
@@ -1983,7 +2001,7 @@ label .close-btn{
     top: 750px;
     text-align: center;
 }
-#project>article:nth-child(5)>div>div{
+#project>article:nth-child(7)>div>div{
     height: 50px;
     width: 250px;
     position: absolute;
@@ -1992,17 +2010,17 @@ label .close-btn{
     margin: auto;
     overflow: hidden;
 }
-#project>article:nth-child(5)>div>div>div:first-child{
+#project>article:nth-child(7)>div>div>div:first-child{
     height: 50px;
     width: 250px;
     border-radius: 10%;
 }
-#project>article:nth-child(5):hover>div>div>button{
+#project>article:nth-child(7):hover>div>div>button{
     position: absolute;
     top: 0;
     left: 0;
 }
-#project>article:nth-child(5)>div>div>button{
+#project>article:nth-child(7)>div>div>button{
     height: 40px;
     width: 250px;
     border-radius: 30px;
@@ -2014,7 +2032,7 @@ label .close-btn{
     left: 0;
     transition: ease-in-out 1s;
 }
-#project>article:nth-child(5)>div>div>button>a{
+#project>article:nth-child(7)>div>div>button>a{
     text-decoration: none;
     /*color: deepskyblue;*/
     color: #31304D;
