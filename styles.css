@@ -377,6 +377,18 @@ label .close-btn{
 @media all and (min-width: 835px ) and (max-width: 1024px) {
     #home{
         margin-top: 70px;
+        height: 700px;
+    }
+    #home>main{
+        left: 100px;
+        z-index: 3;
+    }
+    #home>aside{
+        right: 75px;
+        width: 475px;
+        height: 650px;
+        opacity: 75%;
+
     }
 }
 
