@@ -74,6 +74,7 @@ label .close-btn{
 
 @media all and (min-width: 1025px ) and (max-width: 1440px){
     header{
+        background-color: #ff253a;
         top: 0;
         height: 80px;
         width: 100vw;
@@ -98,6 +99,7 @@ label .close-btn{
 }
 @media all and (min-width: 835px ) and (max-width: 1024px) {
     header{
+        background-color: #96EFFF;
         top: 0;
         height: 70px;
         width: 100vw;
@@ -161,7 +163,7 @@ label .close-btn{
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
     header{
-        background-color: white;
+        background-color: blue;
         top: 0;
         height: 70px;
         width: 100vw;
@@ -215,7 +217,7 @@ label .close-btn{
 }
 @media all and (min-width: 321px ) and (max-width: 460px){
     header{
-        background-color: white;
+        background-color: yellow;
         top: 0;
         height: 60px;
         width: 100vw;
@@ -358,6 +360,17 @@ label .close-btn{
 @media all and (min-width: 1025px ) and (max-width: 1440px){
     #home{
         margin-top: 80px;
+        height: 700px;
+    }
+    #home>main{
+        left: 150px;
+        z-index: 3;
+    }
+    #home>aside{
+        right: 100px;
+        width: 475px;
+        height: 650px;
+        
     }
 }
 
