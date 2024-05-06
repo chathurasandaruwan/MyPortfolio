@@ -1987,11 +1987,12 @@ label .close-btn{
 #project>div:nth-child(5){
     width: calc(100vw - 200px);
     height: 480px;
-    background-color: blueviolet;
+    background-color: white;
     position: absolute;
     left: 100px;
     top: 720px;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
+    opacity: 50%;
 }
 #project>article:nth-child(7){
     width: 30%;
