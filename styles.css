@@ -282,7 +282,8 @@ label .close-btn{
     height: 60%;
     position: absolute;
     top: 200px;
-    left: 400px;
+    left: 300px;
+    z-index: 3;
 }
 #home>main>article>hgroup{
     height: 43px;
@@ -317,6 +318,7 @@ label .close-btn{
 #home>main>article>h1{
     color: white;
     font-size: 60px;
+    letter-spacing: 4px;
 }
 #home>main>article>hgroup>h2{
     margin: 0 ;
@@ -337,7 +339,7 @@ label .close-btn{
     overflow: hidden;
     display: flex;
     position: absolute;
-    right: 300px;
+    right: 250px;
     margin-top: 10px;
     opacity: 90%;
     border: 2px solid #B6BBC4;
@@ -388,13 +390,29 @@ label .close-btn{
         width: 475px;
         height: 650px;
         opacity: 75%;
-
+    }
+    #home>main>article>h1{
+        letter-spacing: 2px;
     }
 }
 
 @media all and (min-width: 769px ) and (max-width: 834px){
     #home{
         margin-top: 70px;
+        height: 700px;
+    }
+    #home>main{
+        left: 80px;
+        z-index: 3;
+    }
+    #home>aside{
+        right: 50px;
+        width: 475px;
+        height: 650px;
+        opacity: 75%;
+    }
+    #home>main>article>h1{
+        letter-spacing: 1px;
     }
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
