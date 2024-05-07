@@ -467,6 +467,36 @@ label .close-btn{
     #home{
         margin-top: 60px;
     }
+    #home>main{
+        width: fit-content;
+        z-index: 3;
+        top: 480px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #home>main>article>h1{
+        letter-spacing: 2px;
+        font-size: 40px;
+    }
+    #home>main>article>hgroup{
+        height: 39px;
+        font-size: 23px;
+    }
+    #home>aside{
+        width: 400px;
+        height: 400px;
+        opacity: 95%;
+        left: 0;
+        right: 0;
+        top: 20px;
+        margin: auto;
+        border-radius: 100%;
+    }
+    #home > aside:nth-child(2) > img {
+        width: 400px;
+        height: 590px;
+    }
 }
 /*about me style*/
 #about{
