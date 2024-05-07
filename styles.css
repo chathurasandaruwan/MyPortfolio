@@ -384,7 +384,7 @@ label .close-btn{
 @media all and (min-width: 835px ) and (max-width: 1024px) {
     #home{
         margin-top: 70px;
-        height: 700px;
+        height: 580px;
     }
     #home>main{
         left: 100px;
@@ -392,12 +392,16 @@ label .close-btn{
     }
     #home>aside{
         right: 75px;
-        width: 475px;
-        height: 650px;
+        width: 400px;
+        height: 550px;
         opacity: 75%;
     }
     #home>main>article>h1{
         letter-spacing: 2px;
+    }
+    #home > aside:nth-child(2) > img {
+        width: 450px;
+        height: 700px;
     }
 }
 
