@@ -362,17 +362,22 @@ label .close-btn{
 @media all and (min-width: 1025px ) and (max-width: 1440px){
     #home{
         margin-top: 80px;
-        height: 700px;
+        height: 580px;
     }
     #home>main{
-        left: 150px;
+        top: 150px;
+        left: 125px;
         z-index: 3;
     }
     #home>aside{
-        right: 100px;
-        width: 475px;
-        height: 650px;
+        right: 125px;
+        width: 400px;
+        height: 550px;
         
+    }
+    #home > aside:nth-child(2) > img {
+        width: 450px;
+        height: 700px;
     }
 }
 
