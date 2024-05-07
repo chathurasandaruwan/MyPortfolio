@@ -431,32 +431,32 @@ label .close-btn{
 @media all and (min-width: 461px ) and (max-width: 768px){
     #home{
         margin-top: 70px;
-        height: 850px;
     }
     #home>main{
         width: fit-content;
         z-index: 3;
-        top: 50px;
+        top: 520px;
         left: 0;
         right: 0;
         margin: auto;
     }
     #home>main>article>h1{
         letter-spacing: 3px;
-        font-size: 44px;
+        font-size: 46px;
     }
     #home>main>article>hgroup{
         height: 39px;
         font-size: 23px;
     }
     #home>aside{
-        width: 400px;
-        height: 550px;
+        width: 450px;
+        height: 450px;
         opacity: 95%;
         left: 0;
         right: 0;
-        top: 270px;
+        top: 20px;
         margin: auto;
+        border-radius: 100%;
     }
     #home > aside:nth-child(2) > img {
         width: 450px;
