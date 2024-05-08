@@ -507,14 +507,20 @@ label .close-btn{
     width: 220px;
     height: 60px;
     margin: auto;
-    margin-top: 0;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 52%;
     padding: 20px;
     font-size:var(--topicFontSize);
 }
+#about>aside{
+    width: 40%;
+    height: 850px;
+    margin-left: 10%;
+}
 #about>aside>img{
-    width: 30%;
-    height: 700px;
-    margin-left: 15%;
+    width: 100%;
+    height: 100%;
 }
 #about>article{
     width: 40%;
@@ -524,9 +530,14 @@ label .close-btn{
     right: 0;
     bottom: 900px;
     margin: auto;
-    margin-right: 10%;
+    margin-right: 7%;
     margin-top: 10%;
     font-size:var(--textFontSize);
+}
+#about>article>p{
+    letter-spacing: 2px;
+    line-height: 36px;
+
 }
 #about>article>button{
     background-color: #B6BBC4;
@@ -634,8 +645,73 @@ label .close-btn{
     width: 142px;
     margin-left: 200px;
 }
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    #about>aside{
+        width: 45%;
+        height: 750px;
+        margin-left: 5%;
+    }
+    #about>article{
+        width: 40%;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 900px;
+        margin: auto;
+        margin-right: 5%;
+        margin-top: 10%;
+        font-size:var(--textFontSize);
+    }
+    #about>h2:first-child{
+        margin-left: 53%;
+        margin-top: 24px;
+    }
+    #about>article>p{
+        letter-spacing: 1px;
+        line-height: 32px;
+        font-size: 23px;
 
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px) {
+    #about>aside{
+        width: 50%;
+        height: 690px;
+        margin-left: 2%;
+    }
+    #about>article{
+        width: 40%;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 900px;
+        margin: auto;
+        margin-right: 5%;
+        margin-top: 10%;
+        font-size:var(--textFontSize);
+    }
+    #about>h2:first-child{
+        margin-left: 53%;
+        margin-top: 20px;
+    }
+    #about>article>p{
+        letter-spacing: 0px;
+        line-height: 35px;
+        font-size: 20px;
 
+    }
+}
+@media all and (min-width: 769px ) and (max-width: 834px){
+
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+
+}
+@media all and (min-width: 321px ) and (max-width: 460px){
+
+}
 /*skill style*/
 #skill{
     position: relative;
