@@ -9,9 +9,9 @@ html {
 * {
     scroll-behavior: smooth;
 }
-body{
+/*body{
     overflow-x: hidden;
-}
+}*/
 /*header style*/
 header{
     top: 0;
@@ -1238,6 +1238,57 @@ label .close-btn{
 #lineOfCode>div:nth-child(4)>h2{
     margin-top: 5px;
 }
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    #skill > aside
+    {
+        width: 50%;
+        height: 500px;
+    }
+    #skill > aside > img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    #skill > main > div:nth-child(2) > div
+    {
+        text-align: center;
+        width: calc(100%/3);
+        height: 550px;
+        border: 10px solid white;
+    }
+    #skill > main
+    {
+        height: 51rem;
+    }
+    #lineOfCode > div:nth-child(2) {
+        left: 20%;
+    }
+    #lineOfCode > div:nth-child(3) {
+        right: 20%;
+    }
+    #lineOfCode > div:nth-child(4) {
+        left: 15%;
+    }
+    #lineOfCode > div:nth-child(5) {
+        right: 15%;
+    }
+
+}
+@media all and (min-width: 835px ) and (max-width: 1024px) {
+
+}
+@media all and (min-width: 769px ) and (max-width: 834px){
+
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+
+}
+@media all and (min-width: 321px ) and (max-width: 460px){
+
+}
+
+
+
 
 /*assignment*/
 #assignment{
