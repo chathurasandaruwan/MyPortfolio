@@ -1420,7 +1420,107 @@ label .close-btn{
 
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
-
+    #skill > aside
+    {
+        width: 100%;
+    }
+    #skill > article
+    {
+        width: 100%;
+        padding: 30px;
+        position: relative;
+        box-sizing: border-box;
+        height: 590px;
+        top: 0;
+    }
+    #skill > div:first-child > div > p
+    {
+        font-size: 22px;
+    }
+    #skill > main > div:nth-child(2)
+    {
+        display: block;
+    }
+    #skill > main
+    {
+        height: 122rem;
+    }
+    #skill > main > div:nth-child(2) > div > div:first-child > img
+    {
+        width: 125px;
+        aspect-ratio: 1/1;
+    }
+    #skill > main > div:nth-child(2) > div
+    {
+        text-align: center;
+        width: 55%;
+        height: 480px;
+        border: 40px solid white;
+        margin-left: 15%;
+    }
+    #skill > main > div:nth-child(2) > div > div:nth-child(2) {
+        padding-top: 60px;
+    }
+    #skill > main > div:nth-child(2) > div > div:nth-child(2) > h3
+    {
+        font-size: 26px;
+    }
+    #skill > main > div:nth-child(2) > div > div:nth-child(2) > p
+    {
+        font-size: 22px;
+    }
+    #lineOfCode > div:nth-child(2)
+    {
+        background-color: white;
+        width: 200px;
+        text-align: center;
+        height: 130px;
+        position: absolute;
+        top: 15%;
+        left: 0;
+        border-radius: 50px;
+        right: 0;
+        margin: auto;
+    }
+    #lineOfCode > div:nth-child(3)
+    {
+        background-color: white;
+        width: 200px;
+        text-align: center;
+        height: 130px;
+        position: absolute;
+        top: 60%;
+        right: 0;
+        border-radius: 50px;
+        left: 0;
+        margin: auto;
+    }
+    #lineOfCode > div:nth-child(4)
+    {
+        height: 40px;
+        width: 300px;
+        background-color: white;
+        text-align: center;
+        border-radius: 50px;
+        position: absolute;
+        top: 36%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #lineOfCode > div:nth-child(5)
+    {
+        height: 40px;
+        width: 300px;
+        background-color: white;
+        text-align: center;
+        border-radius: 50px;
+        position: absolute;
+        top: 81%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
 }
 @media all and (min-width: 321px ) and (max-width: 460px){
 
