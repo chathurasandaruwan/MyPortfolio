@@ -732,7 +732,6 @@ label .close-btn{
         font-size: 20px;
     }
 
-
     #about>main{
         height: 1110px;
         width: 100vw;
@@ -789,6 +788,53 @@ label .close-btn{
         line-height: 36px;
         font-size: 22px;
     }
+    #about>main{
+        height: 1270px;
+        width: 100vw;
+    }
+    #about > main::before {
+        left: 15%;
+    }
+    #about > main > div:first-child {
+        left: 15%;
+    }
+    #about > main > div {
+        width: 60%;
+        height: 200px;
+    }
+    #about > main > div > div:first-child > img
+    {
+        height: 130px;
+        width: 147px;
+        margin-left: 30%;
+        margin-top: -20px;
+    }
+    #about > main > div > div:nth-child(2)
+    {
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    #about > main > div:nth-child(2)
+    {
+        /*margin-top: 50px;
+        margin-left: 50px;*/
+        left: 15%;
+    }
+    #about > main > div:nth-child(2)::after
+    {
+        left: 0;
+    }
+    #about > main > div:nth-child(4)::after
+    {
+        left: 0;
+    }
+    #about > main > div:nth-child(3) {
+        left: 15%;
+    }
+    #about > main > div:nth-child(4) {
+        left: 15%;
+    }
+
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
     #about>aside{
