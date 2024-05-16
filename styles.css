@@ -731,6 +731,35 @@ label .close-btn{
         line-height: 35px;
         font-size: 20px;
     }
+
+
+    #about>main{
+        height: 1110px;
+        width: 100vw;
+    }
+    #about > main > div
+    {
+        background-color: white;
+        width: 35%;
+        border-radius: 20px;
+        box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+        position: relative;
+        padding: 20px;
+        height: 164px;
+    }
+    #about > main > div > div:first-child > img
+    {
+        height: 110px;
+        width: 130px;
+        margin-left: 30%;
+        margin-top: -20px;
+    }
+    #about > main > div > div:nth-child(2)
+    {
+        padding-left: 50px;
+        font-size: 14px;
+        margin-top: -20px;
+    }
 }
 @media all and (min-width: 769px ) and (max-width: 834px){
     #about>aside{
