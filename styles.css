@@ -558,7 +558,8 @@ label .close-btn{
 }
 #about>main{
     background-color: #F0ECE5;
-    max-width: 1540px;
+    /*max-width: 1540px;*/
+    width: 1540px;
     height: 1600px;
     position: relative;
     padding-top: 30px;
@@ -672,7 +673,35 @@ label .close-btn{
         letter-spacing: 1px;
         line-height: 32px;
         font-size: 23px;
-
+    }
+    #about>main{
+        height: 1250px;
+        width: 100vw;
+    }
+    #about > main > div
+    {
+        background-color: white;
+        width: 37%;
+        border-radius: 20px;
+        box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+        position: relative;
+        padding: 20px;
+        padding-left: 40px;
+        height: 200px;
+        /*overflow: hidden;*/
+    }
+    #about > main > div > div:first-child > img
+    {
+        height: 130px;
+        width: 147px;
+        margin-left: 30%;
+        margin-top: -20px;
+    }
+    #about > main > div > div:nth-child(2)
+    {
+        padding-left: 50px;
+        font-size: 16px;
+        margin-top: -20px;
     }
 }
 @media all and (min-width: 835px ) and (max-width: 1024px) {
