@@ -761,6 +761,9 @@ label .close-btn{
     }
 }
 @media all and (min-width: 769px ) and (max-width: 834px){
+    #about {
+        height: 170rem;
+    }
     #about>aside{
         width: 85%;
         height: 750px;
@@ -837,6 +840,10 @@ label .close-btn{
 
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
+    #about
+    {
+        height: 157rem;
+    }
     #about>aside{
         width: 100%;
         height: 750px;
@@ -863,6 +870,54 @@ label .close-btn{
         letter-spacing: 0;
         line-height: 30px;
         font-size: 22px;
+    }
+
+    #about>main{
+        height: 1100px;
+        width: 100vw;
+    }
+    #about > main::before {
+        left: 10%;
+    }
+    #about > main > div:first-child {
+        left: 10%;
+    }
+    #about > main > div {
+        width: 60%;
+        height: 160px;
+    }
+    #about > main > div > div:first-child > img
+    {
+        height: 100px;
+        width: 120px;
+        margin-left: 30%;
+        margin-top: -20px;
+    }
+    #about > main > div > div:nth-child(2)
+    {
+        padding-left: 50px;
+        font-size: 14px;
+        margin-top: -15px;
+    }
+    #about > main > div:nth-child(2)
+    {
+        /*margin-top: 50px;
+        margin-left: 50px;*/
+        left: 10%;
+    }
+    #about > main > div:nth-child(2)::after
+    {
+        left: 0;
+    }
+    #about > main > div:nth-child(4)::after
+    {
+        left: 0;
+    }
+    #about > main > div:nth-child(3) {
+        left: 10%;
+    }
+    #about > main > div:nth-child(4) {
+        left: 10%;
     }
 }
 @media all and (min-width: 321px ) and (max-width: 460px){
