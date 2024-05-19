@@ -2944,6 +2944,15 @@ label .close-btn{
     #assignment>div:first-child>div>p{
         font-size: 22px;
     }
+    #assignment>div:nth-child(2){
+        animation-duration: 20s;
+    }
+    #assignment>div:nth-child(3){
+        animation-duration: 20s;
+    }
+    #assignment>div:nth-child(4){
+        animation-duration: 20s;
+    }
     @keyframes assignmentTransformAnim {
         from{
             transform: translateX(0);
@@ -2962,7 +2971,37 @@ label .close-btn{
     }
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
-
+    #assignment{
+        width: 28rem;
+    }
+    #assignment>div:first-child>div>p{
+        font-size: 20px;
+    }
+    #assignment>div:nth-child(2){
+        animation-duration: 20s;
+    }
+    #assignment>div:nth-child(3){
+        animation-duration: 20s;
+    }
+    #assignment>div:nth-child(4){
+        animation-duration: 20s;
+    }
+    @keyframes assignmentTransformAnim {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-85%);
+        }
+    }
+    @keyframes jsAssignmentTransformAnim {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-90%);
+        }
+    }
 }
 @media all and (min-width: 321px ) and (max-width: 460px){
 
