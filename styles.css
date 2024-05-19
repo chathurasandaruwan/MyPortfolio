@@ -2873,7 +2873,23 @@ label .close-btn{
 #assignment>div:nth-child(4)>div:nth-child(7)>div:nth-child(4)>button:hover>a{
     color: white;
 }
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    #assignment{
+        width: 100vw;
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px){
 
+}
+@media all and (min-width: 769px ) and (max-width: 834px){
+
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+
+}
+@media all and (min-width: 321px ) and (max-width: 460px){
+
+}
 
 /*projects*/
 #project{
