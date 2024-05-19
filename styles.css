@@ -2427,19 +2427,50 @@ label .close-btn{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*third 03*/
 #assignment>div:nth-child(4)>div>div>img{
     width: 28rem;
     height: 18rem;
     border-radius: 20px;
 }
+#assignment>div:nth-child(4)>div>div{
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+    border: 3px solid #B6BBC4;
+    box-shadow: 1px 4px 5px 0px #B6BBC4;
+    box-sizing: border-box;
+}
 #assignment>div:nth-child(4){
     background-color: #F0ECE5;
+    width: fit-content;
     height: 25rem;
     border-radius: 20px;
-    display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    display: block ruby;
+    overflow-x: unset;
+    animation-name: assignmentTransformAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+#assignment>div:nth-child(4):hover{
+    animation-play-state: paused;
 }
 #assignment>div:nth-child(4)>div{
     width: 28rem;
@@ -2454,6 +2485,12 @@ label .close-btn{
     font-size:var(--textFontSize);
 }
 /*CSS transits  01*/
+#assignment>div:nth-child(4)>div:nth-child(1)>div:first-child{
+    background: url("assets/gif/AS6.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #assignment>div:nth-child(4)>div:first-child:hover>div:nth-child(3){
     position: absolute;
     top: 0;
@@ -2504,6 +2541,12 @@ label .close-btn{
     color: white;
 }
 /*CSS transits  02*/
+#assignment>div:nth-child(4)>div:nth-child(2)>div:first-child{
+    background: url("assets/gif/AS8.1.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #assignment>div:nth-child(4)>div:nth-child(2):hover>div:nth-child(3){
     position: absolute;
     top: 0;
@@ -2554,6 +2597,12 @@ label .close-btn{
     color: white;
 }
 /*CSS transits  03*/
+#assignment>div:nth-child(4)>div:nth-child(3)>div:first-child{
+    background: url("assets/gif/AS8.2.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #assignment>div:nth-child(4)>div:nth-child(3):hover>div:nth-child(3){
     position: absolute;
     top: 0;
@@ -2603,7 +2652,236 @@ label .close-btn{
 #assignment>div:nth-child(4)>div:nth-child(3)>div:nth-child(4)>button:hover>a{
     color: white;
 }
-/*third 03*/
+
+/*JS SPA*/
+#assignment>div:nth-child(4)>div:nth-child(4)>div:first-child{
+    background: url("assets/gif/AS6.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#assignment>div:nth-child(4)>div:nth-child(4):hover>div:nth-child(3){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(4)>div:nth-child(4):hover>div:nth-child(4){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(4)>div:nth-child(4)>div:nth-child(3){
+    background-color: black;
+    opacity: 70%;
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(4)>div:nth-child(4)>div:nth-child(4){
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(4)>div:nth-child(4)>div:nth-child(4)>h2{
+    color: white;
+    font-size:var(--topicFontSize);
+    margin-top: 20%;
+}
+#assignment>div:nth-child(4)>div:nth-child(4)>div:nth-child(4)>button{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+#assignment>div:nth-child(4)>div:nth-child(4)>div:nth-child(4)>button>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#assignment>div:nth-child(4)>div:nth-child(4)>div:nth-child(4)>button:hover{
+    background-color: #31304D;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition-duration: 2s;
+}
+#assignment>div:nth-child(4)>div:nth-child(4)>div:nth-child(4)>button:hover>a{
+    color: white;
+}
+
+/*JS 9*/
+#assignment>div:nth-child(4)>div:nth-child(5)>div:first-child{
+    background: url("assets/gif/AS9.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#assignment>div:nth-child(4)>div:nth-child(5):hover>div:nth-child(3){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(4)>div:nth-child(5):hover>div:nth-child(4){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(4)>div:nth-child(5)>div:nth-child(3){
+    background-color: black;
+    opacity: 70%;
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(4)>div:nth-child(5)>div:nth-child(4){
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(4)>div:nth-child(5)>div:nth-child(4)>h2{
+    color: white;
+    font-size:var(--topicFontSize);
+    margin-top: 20%;
+}
+#assignment>div:nth-child(4)>div:nth-child(5)>div:nth-child(4)>button{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+#assignment>div:nth-child(4)>div:nth-child(5)>div:nth-child(4)>button>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#assignment>div:nth-child(4)>div:nth-child(5)>div:nth-child(4)>button:hover{
+    background-color: #31304D;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition-duration: 2s;
+}
+#assignment>div:nth-child(4)>div:nth-child(5)>div:nth-child(4)>button:hover>a{
+    color: white;
+}
+/*JS 10*/
+#assignment>div:nth-child(4)>div:nth-child(6)>div:first-child{
+    background: url("assets/gif/AS10.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#assignment>div:nth-child(4)>div:nth-child(6):hover>div:nth-child(3){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(4)>div:nth-child(6):hover>div:nth-child(4){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(4)>div:nth-child(6)>div:nth-child(3){
+    background-color: black;
+    opacity: 70%;
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(4)>div:nth-child(6)>div:nth-child(4){
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(4)>div:nth-child(6)>div:nth-child(4)>h2{
+    color: white;
+    font-size:var(--topicFontSize);
+    margin-top: 20%;
+}
+#assignment>div:nth-child(4)>div:nth-child(6)>div:nth-child(4)>button{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+#assignment>div:nth-child(4)>div:nth-child(6)>div:nth-child(4)>button>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#assignment>div:nth-child(4)>div:nth-child(6)>div:nth-child(4)>button:hover{
+    background-color: #31304D;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition-duration: 2s;
+}
+#assignment>div:nth-child(4)>div:nth-child(6)>div:nth-child(4)>button:hover>a{
+    color: white;
+}
+/*JS 11*/
+#assignment>div:nth-child(4)>div:nth-child(7)>div:first-child{
+    background: url("assets/gif/AS6.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#assignment>div:nth-child(4)>div:nth-child(7):hover>div:nth-child(3){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(4)>div:nth-child(7):hover>div:nth-child(4){
+    position: absolute;
+    top: 0;
+    margin: auto;
+
+}
+#assignment>div:nth-child(4)>div:nth-child(7)>div:nth-child(3){
+    background-color: black;
+    opacity: 70%;
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(4)>div:nth-child(7)>div:nth-child(4){
+    width: 28rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+#assignment>div:nth-child(4)>div:nth-child(7)>div:nth-child(4)>h2{
+    color: white;
+    font-size:var(--topicFontSize);
+    margin-top: 20%;
+}
+#assignment>div:nth-child(4)>div:nth-child(7)>div:nth-child(4)>button{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+#assignment>div:nth-child(4)>div:nth-child(7)>div:nth-child(4)>button>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#assignment>div:nth-child(4)>div:nth-child(7)>div:nth-child(4)>button:hover{
+    background-color: #31304D;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition-duration: 2s;
+}
+#assignment>div:nth-child(4)>div:nth-child(7)>div:nth-child(4)>button:hover>a{
+    color: white;
+}
+
+
+
+/*!*third 03*!
 #assignment>div:nth-child(5)>div>div>img{
     width: 28rem;
     height: 18rem;
@@ -2629,7 +2907,7 @@ label .close-btn{
 #assignment>div:nth-child(5)>div>h4{
     font-size:var(--textFontSize);
 }
-/*CSS transits  04*/
+!*CSS transits  04*!
 #assignment>div:nth-child(5)>div:first-child:hover>div:nth-child(3){
     position: absolute;
     top: 0;
@@ -2679,7 +2957,7 @@ label .close-btn{
 #assignment>div:nth-child(5)>div:first-child>div:nth-child(4)>button:hover>a{
     color: white;
 }
-/*CSS transits  05*/
+!*CSS transits  05*!
 #assignment>div:nth-child(5)>div:nth-child(2):hover>div:nth-child(3){
     position: absolute;
     top: 0;
@@ -2729,7 +3007,7 @@ label .close-btn{
 #assignment>div:nth-child(5)>div:nth-child(2)>div:nth-child(4)>button:hover>a{
     color: white;
 }
-/*CSS transits  06*/
+!*CSS transits  06*!
 #assignment>div:nth-child(5)>div:nth-child(3):hover>div:nth-child(3){
     position: absolute;
     top: 0;
@@ -2778,7 +3056,7 @@ label .close-btn{
 }
 #assignment>div:nth-child(5)>div:nth-child(3)>div:nth-child(4)>button:hover>a{
     color: white;
-}
+}*/
 /*projects*/
 #project{
     position: relative;
