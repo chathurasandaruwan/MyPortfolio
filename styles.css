@@ -2875,11 +2875,64 @@ label .close-btn{
 }
 @media all and (min-width: 1025px ) and (max-width: 1440px){
     #assignment{
-        width: 100vw;
+        /*width: 100vw;*/
+        width: calc(100vw - 200px);
+    }
+    #assignment>div:nth-child(2){
+        animation-duration: 15s;
+    }
+    #assignment>div:nth-child(3){
+        animation-duration: 15s;
+    }
+    #assignment>div:nth-child(4){
+        animation-duration: 15s;
+    }
+    @keyframes assignmentTransformAnim {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-70%);
+        }
+    }
+    @keyframes jsAssignmentTransformAnim {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-75%);
+        }
     }
 }
 @media all and (min-width: 835px ) and (max-width: 1024px){
-
+    #assignment{
+        width: 28rem;
+    }
+    #assignment>div:nth-child(2){
+        animation-duration: 20s;
+    }
+    #assignment>div:nth-child(3){
+        animation-duration: 20s;
+    }
+    #assignment>div:nth-child(4){
+        animation-duration: 20s;
+    }
+    @keyframes assignmentTransformAnim {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-85%);
+        }
+    }
+    @keyframes jsAssignmentTransformAnim {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-90%);
+        }
+    }
 }
 @media all and (min-width: 769px ) and (max-width: 834px){
 
