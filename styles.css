@@ -2908,6 +2908,9 @@ label .close-btn{
     #assignment{
         width: 28rem;
     }
+    #assignment>div:first-child>div>p{
+        font-size: 20px;
+    }
     #assignment>div:nth-child(2){
         animation-duration: 20s;
     }
