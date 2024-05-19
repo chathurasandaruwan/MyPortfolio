@@ -2938,7 +2938,28 @@ label .close-btn{
     }
 }
 @media all and (min-width: 769px ) and (max-width: 834px){
-
+    #assignment{
+        width: 100vw;
+    }
+    #assignment>div:first-child>div>p{
+        font-size: 22px;
+    }
+    @keyframes assignmentTransformAnim {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-75%);
+        }
+    }
+    @keyframes jsAssignmentTransformAnim {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-80%);
+        }
+    }
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
 
