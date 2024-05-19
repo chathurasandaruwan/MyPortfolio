@@ -1638,14 +1638,13 @@ label .close-btn{
 }
 
 
-
-
 /*assignment*/
 #assignment{
     position: relative;
     width: 1540px;
     margin: auto;
     overflow: hidden;
+    height: 100rem;
 }
 #assignment>div:first-child{
     padding-top: 40px;
