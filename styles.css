@@ -3160,9 +3160,10 @@ label .close-btn{
 /*projects*/
 #project{
     position: relative;
-    /*max-width: 1540px;*/
     margin: auto;
-    background-color: #B6BBC4;
+    background-color: #31304D;
+    color: white;
+    width: 100vw;
 }
 #project>div:first-child{
     padding-top: 40px;
@@ -3202,11 +3203,12 @@ label .close-btn{
 #project>div:nth-child(2){
     width: calc(100vw - 200px);
     height: 480px;
-    background-color: blueviolet;
+    background-color: white;
     position: absolute;
     left: 100px;
     top: 220px;
-    border-radius: 20px;
+    border-radius: 50px;
+    opacity: 10%;
 }
 #project>article:nth-child(4){
     width: 30%;
@@ -3215,6 +3217,11 @@ label .close-btn{
     right: 250px;
     top: 245px;
     text-align: center;
+    margin-top: 50px;
+    transition: ease-in-out 1s;
+}
+#project>article:nth-child(4):hover{
+    margin: 0;
 }
 
 
@@ -3241,7 +3248,7 @@ label .close-btn{
 #project>article:nth-child(4)>div>div>button{
     height: 40px;
     width: 250px;
-    border-radius: 30px;
+    border-radius: 15px;
     /*border: 3px solid deepskyblue;*/
     border: 3px solid #31304D;
     background-color: #B6BBC4;
@@ -3249,6 +3256,8 @@ label .close-btn{
     top: 100px;
     left: 0;
     transition: ease-in-out 1s;
+    opacity: 70%;
+    cursor: pointer;
 }
 
 #project>article:nth-child(4)>div>div>button>a{
@@ -3273,8 +3282,8 @@ label .close-btn{
     position: absolute;
     left: 100px;
     top: 720px;
-    /*border-radius: 20px;*/
-    opacity: 50%;
+    border-radius: 50px;
+    opacity: 10%;
 }
 #project>article:nth-child(7){
     width: 30%;
@@ -3283,6 +3292,11 @@ label .close-btn{
     right: 250px;
     top: 750px;
     text-align: center;
+    margin-top: 80px;
+    transition: ease-in-out 1s;
+}
+#project>article:nth-child(7):hover{
+    margin-top: 50px;
 }
 #project>article:nth-child(7)>div>div{
     height: 50px;
@@ -3306,14 +3320,15 @@ label .close-btn{
 #project>article:nth-child(7)>div>div>button{
     height: 40px;
     width: 250px;
-    border-radius: 30px;
-    /*border: 3px solid deepskyblue;*/
+    border-radius: 15px;
     border: 3px solid #31304D;
     background-color: #B6BBC4;
     position: absolute;
     top: 100px;
     left: 0;
     transition: ease-in-out 1s;
+    opacity: 70%;
+    cursor: pointer;
 }
 #project>article:nth-child(7)>div>div>button>a{
     text-decoration: none;
