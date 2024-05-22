@@ -3177,7 +3177,8 @@ label .close-btn{
 #project>div:first-child>div>p{
     font-size:var(--textFontSize);
 }
-#project>aside>img{
+/*//////////////////////////////////*/
+/*#project>aside>img{
     width: 675px;
     height: 450px;
     position: absolute;
@@ -3187,6 +3188,35 @@ label .close-btn{
     bottom: 0;
     margin: auto;
     transition: .5s ease-in-out;
+}*/
+
+#project-1-gif{
+    width: 675px;
+    height: 450px;
+    background :url("assets/gif/Project1.gif");
+    background-size: cover;
+    background-position: center;
+    transition: .5s ease-in-out;
+    border-radius: 20px;
+    border: 5px groove white;
+    box-sizing: border-box;
+    filter: grayscale(100%);
+}
+#project-2-gif{
+    width: 675px;
+    height: 450px;
+    background :url("assets/gif/Project2.gif");
+    background-size: cover;
+    background-position: center;
+    transition: .5s ease-in-out;
+    border-radius: 20px;
+    border: 5px groove white;
+    box-sizing: border-box;
+    filter: grayscale(100%);
+}
+#project-1-gif:hover,
+#project-2-gif:hover{
+    filter: grayscale(0);
 }
 #project>aside{
     width: 675px;
@@ -3196,7 +3226,8 @@ label .close-btn{
     margin-bottom: 50px;
     margin-left: 15%;
 }
-#project>aside:hover>img{
+#project>aside:hover>#project-1-gif,
+#project>aside:hover>#project-2-gif{
     width: 681px;
     height: 465px;
 }
