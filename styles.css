@@ -3243,7 +3243,7 @@ label .close-btn{
 }
 #project>article:nth-child(4){
     width: 30%;
-    height: 450px;
+    height: 350px;
     position: absolute;
     right: 250px;
     top: 245px;
@@ -3318,7 +3318,7 @@ label .close-btn{
 }
 #project>article:nth-child(7){
     width: 30%;
-    height: 450px;
+    height: 350px;
     position: absolute;
     right: 250px;
     top: 750px;
@@ -3367,6 +3367,50 @@ label .close-btn{
     color: #31304D;
     font-weight: bold;
 }
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    #project{
+        height: 1190px;
+    }
+    #project-1-gif ,
+    #project-2-gif {
+        width: 470px;
+        height: 350px;
+    }
+    #project > article:nth-child(4){
+        right: 100px;
+        top: 200px;
+        margin-top: 50px;
+    }
+    #project > article:nth-child(7) {
+        right: 100px;
+        top: 700px;
+    }
+    #project>article:nth-child(4):hover{
+        margin-top: 20px;
+    }
+    #project>aside:hover>#project-1-gif,
+    #project>aside:hover>#project-2-gif{
+        width: 480px;
+        height: 360px;
+    }
+    #project > div:nth-child(2),
+    #project > div:nth-child(5){
+        height: 400px;
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px){
+
+}
+@media all and (min-width: 769px ) and (max-width: 834px){
+
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+
+}
+@media all and (min-width: 321px ) and (max-width: 460px){
+
+}
+
 
 /*contact*/
 #contact{
