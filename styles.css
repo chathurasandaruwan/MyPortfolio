@@ -3883,7 +3883,34 @@ label .close-btn{
 
 }
 @media all and (min-width: 321px ) and (max-width: 460px){
-
+    #contact {
+        width: 100vw;
+        height: 850px;
+    }
+    #contact > aside {
+        display: none;
+    }
+    #contact > div:nth-child(3) {
+        width: 90%;
+        height: 600px;
+        background-color: #B6BBC4;
+        opacity: 30%;
+        border-radius: 40px;
+        position: absolute;
+        right: 5%;
+        top: 215px;
+    }
+    #contact > form {
+        width: 90%;
+        right: 30px;
+        padding-top: 20px;
+        height: 600px;
+        font-size: 20px;
+    }
+    #contact > form > div > button {
+        height: 45px;
+        width: 250px;
+    }
 }
 
 /*footer*/
