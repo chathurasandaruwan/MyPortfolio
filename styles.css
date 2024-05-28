@@ -4054,12 +4054,17 @@ footer>div:last-child>a:hover{
 @media all and (min-width: 1025px ) and (max-width: 1440px){
     footer > div:nth-child(2) > p,
     footer > div:nth-child(3) > p{
-        font-size: 22px;
+        font-size: 20px;
         line-height: 36px;
+        font-weight: 600;
     }
-    footer > div:nth-child(3)::before {
-        left: -12%;
+    footer > div:nth-child(2) {
+        left: 10%;
     }
+    footer > div:nth-child(3) {
+        right: 10%;
+    }
+
 }
 @media all and (min-width: 835px ) and (max-width: 1024px){
 
