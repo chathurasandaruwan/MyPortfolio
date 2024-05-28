@@ -3891,14 +3891,10 @@ label .close-btn{
         display: none;
     }
     #contact > div:nth-child(3) {
-        width: 90%;
+        width: 100%;
         height: 600px;
-        background-color: #B6BBC4;
-        opacity: 30%;
-        border-radius: 40px;
-        position: absolute;
-        right: 5%;
-        top: 215px;
+        border-radius: 0;
+        right: 0;
     }
     #contact > form {
         width: 90%;
