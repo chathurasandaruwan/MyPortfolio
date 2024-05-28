@@ -4067,7 +4067,29 @@ footer>div:last-child>a:hover{
 
 }
 @media all and (min-width: 835px ) and (max-width: 1024px){
+    footer > div:nth-child(2) > p,
+    footer > div:nth-child(3) > p{
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 600;
+    }
+    footer > div:nth-child(2) {
+        width: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 230px;
+    }
+    footer > div:nth-child(3) {
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 170px;
 
+    }
+    footer>div:nth-child(3)::before{
+        display: none;
+    }
 }
 @media all and (min-width: 769px ) and (max-width: 834px){
 
