@@ -3969,11 +3969,12 @@ footer>div:nth-child(3)::before{
 footer>div:nth-child(4){
     display: flex;
     height: 50px;
-    width: 50px;
+    width: 500px;
     position: absolute;
-    bottom: 100px;
-    left: calc(50% - 260px);
+    left: 0;
+    right: 0;
     margin: auto;
+    bottom: 100px;
 
 }
 footer>div:nth-child(4)>div:first-child{
@@ -4033,10 +4034,12 @@ footer>div:nth-child(4)>div:nth-child(3)>div:hover{
     background-color: #31304D;
     transition-duration: .5s;
 }
-footer>div:last-child{
+footer > div:last-child {
     position: absolute;
     bottom: 30px;
-    left: calc(50% - 250px);
+    /*left: calc(50% - 250px);*/
+    width: 100vw;
+    text-align: center;
 }
 footer>div:last-child>a{
     font-size: 15px;
@@ -4048,6 +4051,30 @@ footer>div:last-child>a:hover{
     font-size: 18px;
     transition-duration: .5s;
 }
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    footer > div:nth-child(2) > p,
+    footer > div:nth-child(3) > p{
+        font-size: 22px;
+        line-height: 36px;
+    }
+    footer > div:nth-child(3)::before {
+        left: -12%;
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px){
+
+}
+@media all and (min-width: 769px ) and (max-width: 834px){
+
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+
+}
+@media all and (min-width: 321px ) and (max-width: 460px){
+
+}
+
+
 @keyframes wave-animation {
     0% { transform: rotate( 0.0deg) }
     10% { transform: rotate(14.0deg) }
