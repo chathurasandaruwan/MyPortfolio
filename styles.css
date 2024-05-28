@@ -568,6 +568,7 @@ label .close-btn{
     padding-top: 30px;
     padding-bottom: 30px;
     margin: auto;
+    overflow: hidden;
 }
 #about>main::before{
     content: "";
@@ -807,7 +808,7 @@ label .close-btn{
     #about>main{
         height: 1270px;
         width: 100vw;
-        overflow: hidden;
+        /*overflow: hidden;*/
     }
     #about > main::before {
         left: 15%;
