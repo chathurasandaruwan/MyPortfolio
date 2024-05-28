@@ -4092,10 +4092,63 @@ footer>div:last-child>a:hover{
     }
 }
 @media all and (min-width: 769px ) and (max-width: 834px){
+    footer > div:nth-child(2) > p,
+    footer > div:nth-child(3) > p{
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 600;
+    }
+    footer > div:nth-child(2) {
+        width: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 230px;
+    }
+    footer > div:nth-child(3) {
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 170px;
 
+    }
+    footer>div:nth-child(3)::before{
+        display: none;
+    }
+    footer > div:nth-child(2) > div ,
+    footer > div:nth-child(3) > div {
+        font-size: 36px;
+    }
 }
 @media all and (min-width: 461px ) and (max-width: 768px){
-
+    footer {
+        height: 380px;
+    }
+    footer > div:nth-child(2) > p,
+    footer > div:nth-child(3) > p{
+        font-size: 15px;
+        line-height: 36px;
+        font-weight: 600;
+    }
+    footer > div:nth-child(2) {
+        width: 60%;
+        height: 60px;
+        left: 3%;
+        border-right: 3px solid white ;
+    }
+    footer > div:nth-child(3) {
+        right: 3%;
+    }
+    footer > div:nth-child(2) > div ,
+    footer > div:nth-child(3) > div {
+        font-size: 26px;
+    }
+    footer>div:nth-child(3)::before{
+        display: none;
+    }
+    footer > div:last-child {
+        font-size: 14px;
+    }
 }
 @media all and (min-width: 321px ) and (max-width: 460px){
 
