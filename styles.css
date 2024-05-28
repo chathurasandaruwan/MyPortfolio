@@ -4151,7 +4151,62 @@ footer>div:last-child>a:hover{
     }
 }
 @media all and (min-width: 321px ) and (max-width: 460px){
-
+    footer {
+        height: 330px;
+    }
+    footer > div:nth-child(2) > p,
+    footer > div:nth-child(3) > p{
+        font-size: 15px;
+        line-height: 36px;
+        font-weight: 600;
+    }
+    footer > div:nth-child(2) {
+        width: fit-content;
+        left: 15%;
+        bottom: 150px;
+        height: 65px;
+    }
+    footer > div:nth-child(3) {
+        width: fit-content;
+        left: 25%;
+        bottom: 120px;
+        height: 65px;
+    }
+    footer > div:nth-child(2) > div ,
+    footer > div:nth-child(3) > div {
+        font-size: 26px;
+    }
+    footer>div:nth-child(3)::before{
+        display: none;
+    }
+    footer > div:last-child {
+        font-size: 12px;
+    }
+    footer > div:first-child > h3
+    {
+        font-size: 21px;
+    }
+    footer > div:nth-child(4) {
+        width: 300px;
+        bottom: 65px;
+    }
+    footer > div:nth-child(4) > div:nth-child(2),
+    footer > div:nth-child(4) > div:nth-child(3) {
+        margin-left: 100px;
+        height: 34px;
+        width: 36px;
+    }
+    footer > div:nth-child(4) > div:first-child > div {
+        font-size: 40px;
+    }
+    footer > div:nth-child(4) > div:first-child {
+        height: 33px;
+        width: 33px;
+    }
+    footer > div:nth-child(4) > div:nth-child(2) > div,
+    footer > div:nth-child(4) > div:nth-child(3) > div{
+        font-size: 42px;
+    }
 }
 
 
