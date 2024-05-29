@@ -9,6 +9,28 @@ html {
 * {
     scroll-behavior: smooth;
 }
+.back-to-top {
+    position: fixed;
+    /*display: none;*/
+    width: 44px;
+    height: 44px;
+    padding: 8px 0;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    z-index: 9;
+    background-color: #31304D;
+    color: white;
+    box-sizing: border-box;
+    transition: ease-in-out .5s;
+}
+.back-to-top:hover{
+    background-color: white;
+    border: 4px solid #31304D;
+    color: #31304D;
+}
 /*body{
     overflow-x: hidden;
 }*/
