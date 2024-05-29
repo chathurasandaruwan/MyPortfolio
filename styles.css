@@ -617,7 +617,7 @@ label .close-btn{
 #about>main>div{
     background-color: white;
     width: 40%;
-    border-radius: 20px;
+    border-radius: 40px;
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
     position: relative;
     padding: 20px;
@@ -644,6 +644,9 @@ label .close-btn{
 #about>main>div>div:nth-child(2){
     padding-left: 50px;
     font-size: 18px;
+    /*font-size: 18px;*/
+    color: #414141;
+    font-style: italic;
 }
 #about>main>div>div:first-child>img{
     height: 154px;
