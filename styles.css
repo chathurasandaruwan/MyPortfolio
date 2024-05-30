@@ -1688,7 +1688,9 @@ label .close-btn{
     box-sizing: border-box;
     position: relative;
 }
-#assignment>div:nth-child(2)>div>div>a{
+/*view detail*/
+#assignment>div:nth-child(2)>div>div>a,
+#assignment>div:nth-child(3)>div>div>a{
     color: white;
     line-height: 30px;
     letter-spacing: 1px;
@@ -1705,8 +1707,9 @@ label .close-btn{
     border-radius: 10px;
     transition: ease-in-out .3s;
 }
-#assignment>div:nth-child(2)>div>div>a:hover{
-    border: 3px groove white;
+#assignment>div:nth-child(2)>div>div>a:hover,
+#assignment>div:nth-child(3)>div>div>a:hover{
+    border: 4px groove white;
 }
 /*#assignment>div:nth-child(2)>div:first-child:hover>a{
     display: flex;
@@ -2102,6 +2105,7 @@ label .close-btn{
     border: 3px solid #B6BBC4;
     box-shadow: 1px 4px 5px 0px #B6BBC4;
     box-sizing: border-box;
+    position: relative;
 }
 #assignment>div:nth-child(3){
     background-color: #F0ECE5;
