@@ -1690,7 +1690,8 @@ label .close-btn{
 }
 /*view detail*/
 #assignment>div:nth-child(2)>div>div>a,
-#assignment>div:nth-child(3)>div>div>a{
+#assignment>div:nth-child(3)>div>div>a,
+#assignment>div:nth-child(4)>div>div>a{
     color: white;
     line-height: 30px;
     letter-spacing: 1px;
@@ -1708,7 +1709,8 @@ label .close-btn{
     transition: ease-in-out .3s;
 }
 #assignment>div:nth-child(2)>div>div>a:hover,
-#assignment>div:nth-child(3)>div>div>a:hover{
+#assignment>div:nth-child(3)>div>div>a:hover,
+#assignment>div:nth-child(4)>div>div>a:hover{
     border: 4px groove white;
 }
 /*#assignment>div:nth-child(2)>div:first-child:hover>a{
@@ -2486,6 +2488,7 @@ label .close-btn{
     border: 3px solid #B6BBC4;
     box-shadow: 1px 4px 5px 0px #B6BBC4;
     box-sizing: border-box;
+    position: relative;
 }
 #assignment>div:nth-child(4){
     background-color: #F0ECE5;
@@ -2789,7 +2792,7 @@ label .close-btn{
 #assignment>div:nth-child(4)>div:nth-child(5)>div:nth-child(4)>h2{
     color: white;
     font-size:var(--topicFontSize);
-    margin-top: 20%;
+    margin-top: 10%;
 }
 #assignment>div:nth-child(4)>div:nth-child(5)>div:nth-child(4)>button{
     height: 40px;
@@ -3141,7 +3144,8 @@ label .close-btn{
     #assignment > div:nth-child(4) > div:nth-child(3) > div:nth-child(3),
     #assignment > div:nth-child(4) > div:nth-child(4) > div:nth-child(3),
     #assignment > div:nth-child(4) > div:nth-child(5) > div:nth-child(3),
-    #assignment > div:nth-child(4) > div:nth-child(6) > div:nth-child(3) {
+    #assignment > div:nth-child(4) > div:nth-child(6) > div:nth-child(3),
+    #assignment > div:nth-child(4) > div:nth-child(7) > div:nth-child(3) {
         width: 22rem;
         height: 16rem;
     }
@@ -3150,7 +3154,8 @@ label .close-btn{
     #assignment > div:nth-child(4) > div:nth-child(3) > div:nth-child(4),
     #assignment > div:nth-child(4) > div:nth-child(4) > div:nth-child(4),
     #assignment > div:nth-child(4) > div:nth-child(5) > div:nth-child(4),
-    #assignment > div:nth-child(4) > div:nth-child(6) > div:nth-child(4) {
+    #assignment > div:nth-child(4) > div:nth-child(6) > div:nth-child(4),
+    #assignment > div:nth-child(4) > div:nth-child(7) > div:nth-child(4) {
         width: 22rem;
         height: 16rem;
     }
@@ -3167,6 +3172,7 @@ label .close-btn{
     #assignment > div:nth-child(2) > div:nth-child(5) > div:nth-child(4) > h2,
     #assignment > div:nth-child(2) > div:nth-child(6) > div:nth-child(4) > h2 {
         font-size: 36px;
+        margin-top: 15%;
     }
     #assignment > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > h2,
     #assignment > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) > h2,
@@ -3175,6 +3181,7 @@ label .close-btn{
     #assignment > div:nth-child(3) > div:nth-child(5) > div:nth-child(4) > h2,
     #assignment > div:nth-child(3) > div:nth-child(6) > div:nth-child(4) > h2 {
         font-size: 36px;
+        margin-top: 15%;
     }
     #assignment > div:nth-child(4) > div:nth-child(1) > div:nth-child(4) > h2,
     #assignment > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > h2,
@@ -3184,6 +3191,11 @@ label .close-btn{
     #assignment > div:nth-child(4) > div:nth-child(6) > div:nth-child(4) > h2,
     #assignment > div:nth-child(4) > div:nth-child(7) > div:nth-child(4) > h2 {
         font-size: 36px;
+        margin-top: 15%;
+    }
+    #assignment > div:nth-child(4) > div:nth-child(5) > div:nth-child(4) > h2,
+    #assignment > div:nth-child(4) > div:nth-child(6) > div:nth-child(4) > h2{
+        margin-top: 10%;
     }
     @keyframes assignmentTransformAnim {
         from{
