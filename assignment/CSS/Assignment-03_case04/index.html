@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 03</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        section{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background-color: lightblue;
+        }
+        section>div{
+            width: 100vw;
+            height: 70px;
+            position: sticky;
+            top: 0;
+            background-color: red;
+        }
+        section>div>h3{
+            color: white;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+        section>h2{
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        section:nth-child(2)>div{
+            background-color: blue;
+        }
+        section:nth-child(3)>div{
+            background-color: green;
+        }
+        section:nth-child(4)>div{
+            background-color: purple;
+        }
+        section:first-child{
+            background-color: lightpink;
+        }
+        section:nth-child(2){
+            background-color: lightblue;
+        }
+        section:nth-child(3){
+            background-color: lightgreen;
+        }
+        section:nth-child(4){
+            background-color: plum;
+        }
+
+
+    </style>
+</head>
+<body>
+<section>
+    <div><h3>card 01</h3></div>
+    <h2>HELLO</h2>
+</section>
+<section>
+    <div><h3>card 02</h3></div>
+    <h2>HOW</h2>
+</section>
+<section>
+    <div><h3>card 03</h3></div>
+    <h2>ARE</h2>
+</section>
+<section>
+    <div><h3>card 04</h3></div>
+    <h2>YOU</h2>
+</section>
+
+</body>
+</html>

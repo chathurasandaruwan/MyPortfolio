@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 03</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        section>div{
+            width: 250px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            border: 20px solid gray;
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+        section>div>div{
+            width: 210px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            border: 20px solid red;
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+        main{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        main:nth-child(1)>div{
+            width: 210px;
+            aspect-ratio: 1/1;
+            background-color: purple;
+            border-radius: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+        main:nth-child(2)>div{
+            width: 210px;
+            aspect-ratio: 1/1;
+            background-color: green;
+            border-radius: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+        main:nth-child(3)>div{
+            width: 210px;
+            aspect-ratio: 1/1;
+            background-color: darkblue;
+            border-radius: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        main>div>h2{
+            color: white;
+            position: relative;
+            text-align: center;
+            top: 70px;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div>
+        <h2>Hellow</h2>
+    </div>
+</main>
+<main>
+    <div>
+        <h2>welcome</h2>
+    </div>
+</main>
+<main>
+    <div>
+        <h2>CSS</h2>
+    </div>
+</main>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+</body>
+</html>
