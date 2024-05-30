@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-08</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        section{
+            height: 100vh;
+            width: 100vw;
+            text-align: center;
+            background-color: darkslategrey;
+            position: relative;
+        }
+        section>h1{
+            color: white;
+            font-size: 72px;
+            padding-top: 30px;
+        }
+        section>main{
+            height: 100px;
+            width: 1650px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .colorBox{
+            width: 230px;
+            height: 100px;
+            background-color: white;
+            border-radius: 15px;
+        }
+        section>main>div:first-child{
+            margin-top: -9%;
+            margin-right: 100px;
+        }
+        section>main>div:last-child{
+            margin-top: 9%;
+            margin-left: 100px;
+        }
+        section>main:before{
+            content: "";
+            position: absolute;
+            top: -25%;
+            left: 0;
+            height: 4px;
+            width: 1650px;
+            background: whitesmoke;
+            border-radius: 20px;
+        }
+        section>main:after{
+            content: "";
+            position: absolute;
+            bottom: -25%;
+            left: 0;
+            height: 4px;
+            width: 1650px;
+            background: whitesmoke;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <h1>java Script Queue</h1>
+    <main>
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+        <div class="colorBox"></div>
+    </main>
+</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    let colorAr =["red","green","blue","yellow","pink","deeppink"];
+
+    function changeColor() {
+        let lastValue = colorAr.pop();
+        colorAr.unshift(lastValue);
+        $(".colorBox").eq(0).css({backgroundColor: colorAr[0]});
+        $(".colorBox").eq(1).css({backgroundColor: colorAr[1]});
+        $(".colorBox").eq(2).css({backgroundColor: colorAr[2]});
+        $(".colorBox").eq(3).css({backgroundColor: colorAr[3]});
+        $(".colorBox").eq(4).css({backgroundColor: colorAr[4]});
+        $(".colorBox").eq(5).css({backgroundColor: colorAr[5]});
+    }
+    setInterval(changeColor,500);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

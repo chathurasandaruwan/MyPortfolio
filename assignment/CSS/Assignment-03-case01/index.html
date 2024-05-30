@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-03</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        section{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+
+            border: 2px solid black;
+            margin: auto;
+        }
+        main{
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            margin: auto;
+        }
+        #main1{
+            background-color: red;
+            left: 0;
+        }
+        #main2{
+            background-color: green;
+            right: 0;
+        }
+        #main3{
+            background-color: orange;
+            left: 0;
+            bottom: 0;
+        }
+        #main4{
+            background-color: deeppink;
+            right: 0;
+            bottom: 0;
+        }
+        #centerDiv{
+            width: 200px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0;
+        }
+        #littleCircle{
+            width: 120px;
+            aspect-ratio: 1/1;
+            background-color: red;
+        }
+        div{
+            width: 250px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100%;
+        }
+        .setCenter{
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+        .littleSquare{
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: red;
+            border-radius: 0;
+        }
+        .halfCircle{
+            width: 150px;
+            aspect-ratio: 1/1;
+        }
+        #topHalf{
+            position: absolute;
+            left: 0;
+            right: 0;
+            transform: translate(0%,-50%);
+            margin: auto;
+        }
+        #bottomHalf{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transform: translate(0%,50%);
+            margin: auto;
+        }
+        #pieceCircle-top-left{
+            position: absolute;
+            left: 0;
+            transform: translate(-50%,-50%);
+            margin: auto;
+        }
+        #pieceCircle-top-right{
+            position: absolute;
+            right: 0;
+            transform: translate(50%,-50%);
+            margin: auto;
+        }
+        #pieceCircle-bottom-left{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            transform: translate(-50%,50%);
+            /*margin: auto;*/
+        }
+        #pieceCircle-bottom-right{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translate(50%,50%);
+            /*margin: auto;*/
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <main id="main1">
+        <div class="setCenter">
+            <div class="littleSquare setCenter"></div>
+        </div>
+    </main>
+    <main id="main2">
+        <div class="setCenter">
+            <div class="littleSquare setCenter"></div>
+        </div>
+    </main>
+    <main id="main3">
+        <div class="setCenter">
+            <div class="littleSquare setCenter"></div>
+        </div>
+    </main>
+    <main id="main4">
+        <div class="setCenter">
+            <div class="littleSquare setCenter"></div>
+        </div>
+    </main>
+    <div class="setCenter" id="centerDiv">
+        <div class="setCenter" id="littleCircle" ></div>
+    </div>
+    <div class="halfCircle" id="topHalf"></div>
+    <div class="halfCircle" id="bottomHalf"></div>
+    <div id="pieceCircle-top-left"></div>
+    <div id="pieceCircle-top-right"></div>
+    <div id="pieceCircle-bottom-left"></div>
+    <div id="pieceCircle-bottom-right"></div>
+</section>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        section{
+            width: 100vw;
+            height: 100vh;
+            background: url("assets/images/calBg.jpg");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+        }
+        .calculator{
+            width: 450px;
+            height: 560px;
+            background-color: black;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 20px;
+        }
+        #numberInput{
+            width: 300px;
+            height: 50px;
+            border: none;
+            position: absolute;
+            right: 40px;
+            top: 40px;
+            border-radius: 10px;
+        }
+        button{
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            border: none;
+            margin: 10px;
+            font-weight: bold;
+            font-size: 30px;
+            color: white;
+            background-color: rgba(60, 64, 67, 3);
+            cursor: pointer;
+        }
+        button:hover{
+            box-shadow: rgba(255, 255, 255) 0px 0px 25px 0px;
+            border: 2px white solid;
+        }
+        #AC-btn{
+            width: 70px;
+            height: 50px;
+            border-radius: 10px;
+            margin-right: 300px;
+            margin-left: 25px;
+            margin-top: 40px;
+            background-color: grey;
+            color: black;
+        }
+        #AC-btn:hover{
+            color: red;
+            border: 2px white solid;
+            box-shadow: rgba(255, 255, 255) 0px 0px 25px 0px;
+        }
+        .btnSet{
+            width: 425px;
+            height: fit-content;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 40px;
+            margin: auto;
+        }
+        .primaryBtnSet{
+            background-color: orange;
+        }
+        #btn-eq{
+            background-color: blue;
+        }
+        #numberInput{
+            text-align: right;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <main class="calculator">
+        <button id="AC-btn">AC</button>
+        <input type="text" id="numberInput" disabled="" placeholder="0">
+        <div class="btnSet">
+            <button >7</button>
+            <button >8</button>
+            <button >9</button>
+            <button class="primaryBtnSet">+</button>
+            <button >4</button>
+            <button >5</button>
+            <button >6</button>
+            <button class="primaryBtnSet">-</button>
+            <button >1</button>
+            <button >2</button>
+            <button >3</button>
+            <button class="primaryBtnSet">/</button>
+            <button >0</button>
+            <button >.</button>
+            <button id="btn-eq">=</button>
+            <button class="primaryBtnSet">*</button>
+        </div>
+    </main>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    let firstVal = 0;
+    let secondVal = 0;
+    let result =0;
+    let result1 =0;
+    let process;
+    $('button').click(function (e) {
+        let inputVal = $(this).text();
+        if (inputVal === 'AC'){
+            $('#numberInput').val("");
+            firstVal =0;
+            secondVal= 0;
+            result = 0;
+        }
+        if (inputVal === '7'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '8'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '9'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '4'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '5'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '6'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '1'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '2'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '3'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '0'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '.'){
+            $('#numberInput').val( $('#numberInput').val()+$(this).text());
+            calculation(Number($('#numberInput').val()));
+        }
+        if (inputVal === '+'){
+            process = $(this).text();
+            if (result1 === 0){
+                firstVal = Number($('#numberInput').val());
+                $('#numberInput').val("");
+            }else {
+                firstVal = result1;
+                $('#numberInput').val("");
+            }
+        }
+        if (inputVal === '-'){
+            process = $(this).text();
+            if (result1 === 0){
+                firstVal = Number($('#numberInput').val());
+                $('#numberInput').val("");
+            }else {
+                firstVal = result1;
+                $('#numberInput').val("");
+            }
+        }
+        if (inputVal === '*'){
+            process = $(this).text();
+            if (result1 === 0){
+                firstVal = Number($('#numberInput').val());
+                $('#numberInput').val("");
+            }else {
+                firstVal = result1;
+                $('#numberInput').val("");
+            }
+        }
+        if (inputVal === '/'){
+            process = $(this).text();
+            if (result1 === 0){
+                firstVal = Number($('#numberInput').val());
+                $('#numberInput').val("");
+            }else {
+                firstVal = result1;
+                $('#numberInput').val("");
+            }
+        }
+        if (inputVal === '='){
+            if (process === '+'){
+                secondVal = Number($('#numberInput').val());
+                result = firstVal + secondVal;
+                $('#numberInput').val(result);
+                console.log(result + "resl");
+            }
+            if (process === '-'){
+                secondVal = Number($('#numberInput').val());
+                result = firstVal - secondVal;
+                $('#numberInput').val(result);
+                console.log(result + "resl");
+            }
+            if (process === '*'){
+                secondVal = Number($('#numberInput').val());
+                result = firstVal * secondVal;
+                $('#numberInput').val(result);
+                console.log(result + "resl");
+            }
+            if (process === '/'){
+                secondVal = Number($('#numberInput').val());
+                result = firstVal / secondVal;
+                $('#numberInput').val(result);
+                console.log(result + "resl");
+            }
+            result1 =0 ;
+        }
+
+    });
+    function calculation(val) {
+        if (process ==='+'){
+            result1 = firstVal + val;
+            console.log(result1);
+        }
+        if (process ==='-'){
+            result1 = firstVal - val;
+            console.log(result1);
+        }
+        if (process ==='*'){
+            result1 = firstVal * val;
+            console.log(result1);
+        }
+        if (process ==='/'){
+            result1 = firstVal / val;
+            console.log(result1);
+        }
+    }
+
+</script>
+</body>
+</html>
