@@ -1066,15 +1066,19 @@ label .close-btn{
 }
 #skill>div:first-child>h2{
     font-size:var(--topicFontSize);
+    transition: ease-in-out .8s;
 }
 #skill>div:first-child>span{
     font-size:var(--subtopicFontSize);
+    transition: ease-in-out .8s;
 }
 #skill>div:first-child>div>p{
     font-size:var(--textFontSize);
+    transition: ease-in-out .8s;
 }
 #skill>aside{
     width: 50%;
+    transition: ease-in-out .8s;
 }
 #skill>aside>img{
     width: 100%;
@@ -1126,9 +1130,11 @@ label .close-btn{
 }
 #skill>main>div:first-child>span{
     font-size:var(--subtopicFontSize);
+    transition: ease-in-out .8s;
 }
 #skill>main>div:first-child>h2{
     font-size:var(--topicFontSize);
+    transition: ease-in-out .8s;
 }
 #skill>main>div:nth-child(2){
     display: flex;
@@ -1155,6 +1161,12 @@ label .close-btn{
     border-radius: 15px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     transition-duration: 1s;
+}
+#skill > main > div:nth-child(2) > div:nth-child(2){
+    transition: ease-in-out .5s;
+}
+#skill > main > div:nth-child(2) > div:nth-child(3){
+    transition: ease-in-out 1s;
 }
 #skill>main>div:nth-child(2)>div>div:nth-child(2):hover{
     background-color: #31304D;
@@ -1183,6 +1195,7 @@ label .close-btn{
     top: 40%;
     left: 25%;
     border-radius: 50px;
+    transition: ease-in-out .8s;
 }
 #lineOfCode>div:nth-child(3){
     background-color: white;
@@ -1193,6 +1206,7 @@ label .close-btn{
     top: 40%;
     right: 25%;
     border-radius: 50px;
+    transition: ease-in-out .8s;
 }
 #lineOfCode>div:nth-child(3)>div>div>h1{
     margin: 0;
@@ -1206,6 +1220,7 @@ label .close-btn{
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+    transition: ease-in-out .8s;
 }
 #lineOfCode>div:nth-child(3)>div>div{
     height: 200px;
@@ -1213,6 +1228,7 @@ label .close-btn{
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+    transition: ease-in-out .8s;
 }
 #lineOfCode>div:nth-child(2)>div{
     height: 40px;
@@ -1683,9 +1699,11 @@ label .close-btn{
 }
 #assignment>div:first-child>h2{
     font-size:var(--topicFontSize);
+    transition: ease-in-out .8s;
 }
 #assignment>div:first-child>div>p{
     font-size:var(--textFontSize);
+    transition: ease-in-out .8s;
 }
 /*first 06*/
 
@@ -1742,6 +1760,7 @@ label .close-btn{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
+    transition: ease-in-out .8s;
 }
 #assignment>div:nth-child(2):hover{
     animation-play-state: paused;
@@ -1765,6 +1784,7 @@ label .close-btn{
     display: block;
     padding-left: 20px;
     padding-right: 20px;
+    transition: ease-in-out 1s;
 }
 #assignment>div:nth-child(2)>div>h4{
     font-size:var(--textFontSize);
@@ -2135,6 +2155,7 @@ label .close-btn{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate-reverse;
+    transition: ease-in-out .8s;
 }
 #assignment>div:nth-child(3):hover{
     animation-play-state: paused;
@@ -2149,6 +2170,7 @@ label .close-btn{
     display: block;
     padding-left: 20px;
     padding-right: 20px;
+    transition: ease-in-out 1s;
 }
 #assignment>div:nth-child(3)>div>h4{
     font-size:var(--textFontSize);
@@ -2516,6 +2538,7 @@ label .close-btn{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
+    transition: ease-in-out .8s;
 }
 @keyframes jsAssignmentTransformAnim {
     from{
@@ -2538,6 +2561,7 @@ label .close-btn{
     display: block;
     padding-left: 20px;
     padding-right: 20px;
+    transition: ease-in-out 1s;
 }
 #assignment>div:nth-child(4)>div>h4{
     font-size:var(--textFontSize);
@@ -3241,9 +3265,11 @@ label .close-btn{
 }
 #project>div:first-child>h2{
     font-size:var(--topicFontSize);
+    transition: ease-in-out .8s;
 }
 #project>div:first-child>div>p{
     font-size:var(--textFontSize);
+    transition: ease-in-out .8s;
 }
 /*//////////////////////////////////*/
 /*#project>aside>img{
@@ -3293,6 +3319,7 @@ label .close-btn{
     position: relative;
     margin-bottom: 50px;
     margin-left: 15%;
+    transition: ease-in-out .8s;
 }
 #project>aside:hover>#project-1-gif,
 #project>aside:hover>#project-2-gif{
@@ -3782,15 +3809,18 @@ label .close-btn{
 }
 #contact>div:first-child>h2{
     font-size:var(--topicFontSize);
+    transition: ease-in-out .8s;
 }
 #contact>div:first-child>span{
     font-size: var(--subtopicFontSize);
+    transition: ease-in-out .8s;
 }
 #contact>aside{
     width: 670px;
     height: 800px;
     border-radius: 20px;
     margin-left: 60px;
+    transition: ease-in-out .8s;
 }
 #contact>aside>img{
     width: 100%;
@@ -3806,6 +3836,7 @@ label .close-btn{
     position: absolute;
     right: 60px;
     top: 215px;
+    transition: ease-in-out .8s;
 }
 #contact>form{
     width: 670px;
@@ -3816,6 +3847,7 @@ label .close-btn{
     padding-top: 100px;
     box-sizing: border-box;
     font-size:var(--textFontSize);
+    transition: ease-in-out .8s;
 }
 #contact>form>div>input{
     width: 80%;
@@ -3994,6 +4026,8 @@ footer>div:first-child{
 }
 footer>div:first-child>h3{
     font-size:var(--textFontSize);
+    transition-delay: 1s;
+    transition: ease-in-out .8s;
 }
 footer>div:nth-child(2){
     width: 30%;
@@ -4002,6 +4036,10 @@ footer>div:nth-child(2){
     position: absolute;
     left: 15%;
     margin-bottom: 20px;
+}
+div:nth-child(2){
+    transition-delay: 1s;
+    transition: ease-in-out .8s;
 }
 footer>div:nth-child(2)>div{
     font-size:var(--topicFontSize);
