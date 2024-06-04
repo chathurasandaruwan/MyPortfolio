@@ -42,6 +42,7 @@ header{
     background: #B6BBC4;
     position: fixed;
     z-index: 4;
+    transition: ease-in-out .8s;
 }
 
 header>nav{
@@ -309,6 +310,7 @@ label .close-btn{
     top: 200px;
     left: 300px;
     z-index: 3;
+    transition: ease-in-out .8s;
 }
 #home>main>article>hgroup{
     height: 43px;
@@ -368,6 +370,7 @@ label .close-btn{
     margin-top: 10px;
     opacity: 90%;
     border: 2px solid #B6BBC4;
+    transition: ease-in-out .8s;
 }
 #home>aside:first-child>img{
     width: 700px;
@@ -538,11 +541,13 @@ label .close-btn{
     margin-left: 52%;
     padding: 20px;
     font-size:var(--topicFontSize);
+    transition: ease-in-out .8s;
 }
 #about>aside{
     width: 40%;
     height: 850px;
     margin-left: 10%;
+    transition: ease-in-out .8s;
 }
 #about>aside>img{
     width: 100%;
@@ -559,6 +564,7 @@ label .close-btn{
     margin-right: 7%;
     margin-top: 10%;
     font-size:var(--textFontSize);
+    transition: ease-in-out .8s;
 }
 #about>article>p{
     letter-spacing: 2px;
