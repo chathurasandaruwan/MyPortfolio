@@ -9,9 +9,9 @@ html {
 * {
     scroll-behavior: smooth;
 }
-/*body{
+body{
     overflow-x: hidden;
-}*/
+}
 .back-to-top {
     position: fixed;
     /*display: none;*/
@@ -1754,7 +1754,8 @@ label .close-btn{
     height: 25rem;
     width: fit-content;
     border-radius: 20px;
-    display: block ruby;
+    /*display: block ruby;*/
+    display: flex;
     padding: 20px;
     box-sizing: border-box;
     overflow-x: unset;
@@ -2150,7 +2151,8 @@ label .close-btn{
     justify-content: space-between;
     margin-top: 50px;
     padding: 20px;
-    display: block ruby;
+    /*display: block ruby;*/
+    display: flex;
     overflow-x: unset;
     box-sizing: border-box;
     animation-name: assignmentTransformAnim;
@@ -2534,7 +2536,8 @@ label .close-btn{
     margin-top: 50px;
     padding: 20px;
     box-sizing: border-box;
-    display: block ruby;
+    /*display: block ruby;*/
+    display: flex;
     overflow-x: unset;
     animation-name: jsAssignmentTransformAnim;
     animation-duration: 10s;
