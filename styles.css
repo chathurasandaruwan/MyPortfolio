@@ -9,9 +9,9 @@ html {
 * {
     scroll-behavior: smooth;
 }
-body{
+/*body{
     overflow-x: hidden;
-}
+}*/
 .back-to-top {
     position: fixed;
     /*display: none;*/
@@ -1692,7 +1692,7 @@ label .close-btn{
     width: 1540px;
     margin: auto;
     overflow: hidden;
-    height: 100rem;
+    height: 1600px;
 }
 #assignment>div:first-child{
     padding-top: 40px;
