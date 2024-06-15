@@ -4095,6 +4095,7 @@ footer>div:nth-child(4)>div:first-child>div{
     color: #31304D;
     margin-top: -6px;
     margin-left: -2px;
+    cursor: pointer;
 
 }
 footer>div:nth-child(4)>div:first-child>div:hover{
@@ -4115,6 +4116,7 @@ footer>div:nth-child(4)>div:nth-child(2)>div{
     font-size: 52px;
     color: #31304D;
     margin-top: -7px;
+    cursor: pointer;
 }
 footer>div:nth-child(4)>div:nth-child(2)>div:hover{
     color: white;
@@ -4134,6 +4136,7 @@ footer>div:nth-child(4)>div:nth-child(3)>div{
     color: #31304D;
     margin-top: -7px;
     margin-left: -3px;
+    cursor: pointer;
 }
 footer>div:nth-child(4)>div:nth-child(3)>div:hover{
     color: white;

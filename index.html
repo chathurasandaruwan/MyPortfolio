@@ -745,21 +745,21 @@
 <!--        git log-->
         <div>
 <!--            normal-->
-            <div>
+            <div id="git-logo">
                 <i class="fa-brands fa-github"></i>
             </div>
         </div>
 <!--        linkedIn logo-->
         <div>
 <!--            normal-->
-            <div>
+            <div id="linkedIn-logo">
                 <i class="fa-brands fa-linkedin"></i>
             </div>
         </div>
 <!--        fb logo-->
         <div>
 <!--            normal-->
-            <div>
+            <div id="fb-logo">
                 <i class="fa-brands fa-facebook"></i>
             </div>
         </div>
@@ -775,5 +775,20 @@
     <script>
         AOS.init();
     </script>
+<script src="assets/lib/jquery-3.7.1.min.js.js"></script>
+<script>
+    $('#git-logo').click(function(){
+        // window.location.href = 'https://github.com/chathurasandaruwan';
+        window.open('https://github.com/chathurasandaruwan', '_blank');
+    });
+    $('#linkedIn-logo').click(function(){
+        // window.location.href = 'https://github.com/chathurasandaruwan';
+        window.open('https://www.linkedin.com/in/chathura-sandaruwan-5369a92ab/', '_blank');
+    });
+    $('#fb-logo').click(function(){
+        // window.location.href = 'https://github.com/chathurasandaruwan';
+        window.open('https://github.com/chathurasandaruwan', '_blank');
+    });
+</script>
 </body>
 </html>
