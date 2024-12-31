@@ -46,6 +46,7 @@ header{
     position: fixed;
     z-index: 4;
     transition: ease-in-out .8s;
+    overflow-x:hidden ;
 }
 
 header>nav{
@@ -307,6 +308,7 @@ label .close-btn{
     margin-top: 90px;
     background-color: #31304D;
     height: 750px;
+    overflow-x:hidden ;
 }
 #home>main{
     height: 60%;
@@ -536,6 +538,7 @@ label .close-btn{
 #about{
     position: relative;
     height: 155rem;
+    overflow-x:hidden ;
 }
 #about>h2:first-child{
     width: 220px;
@@ -1062,6 +1065,7 @@ label .close-btn{
     position: relative;
     max-width: 1540px;
     margin: auto;
+    overflow-x:hidden ;
 }
 #skill>div:first-child{
     padding-top: 50px;
@@ -3264,6 +3268,7 @@ label .close-btn{
     background-color: #31304D;
     color: white;
     width: 100vw;
+    overflow-x:hidden ;
 }
 #project>div:first-child{
     padding-top: 40px;
@@ -3810,6 +3815,7 @@ label .close-btn{
     position: relative;
     max-width: 1540px;
     margin: auto;
+    overflow:hidden ;
 }
 #contact>div:first-child{
     padding-top: 40px;
@@ -4026,6 +4032,7 @@ footer{
     background-color: #31304D;
     color: white;
     position: relative;
+    overflow-x:hidden ;
 }
 footer>div:first-child{
     padding-top: 10px;
